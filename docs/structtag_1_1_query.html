@@ -81,8 +81,8 @@ Inheritance diagram for tag::Query:</div>
 <div class="dyncontent">
 <div class="center"><img src="structtag_1_1_query__inherit__graph.png" border="0" usemap="#tag_1_1_query_inherit__map" alt="Inheritance graph"/></div>
 <map name="tag_1_1_query_inherit__map" id="tag_1_1_query_inherit__map">
-<area shape="rect" id="node2" href="structade_1_1_once_traveler.html" title="Extremely generic traveler that visits every node in the graph once. " alt="" coords="5,79,137,104"/>
-<area shape="rect" id="node3" href="structade_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="20,5,122,31"/>
+<area shape="rect" id="node2" href="structteq_1_1_once_traveler.html" title="Extremely generic traveler that visits every node in the graph once. " alt="" coords="5,79,133,104"/>
+<area shape="rect" id="node3" href="structteq_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="20,5,118,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -90,9 +90,9 @@ Collaboration diagram for tag::Query:</div>
 <div class="dyncontent">
 <div class="center"><img src="structtag_1_1_query__coll__graph.png" border="0" usemap="#tag_1_1_query_coll__map" alt="Collaboration graph"/></div>
 <map name="tag_1_1_query_coll__map" id="tag_1_1_query_coll__map">
-<area shape="rect" id="node2" href="structade_1_1_once_traveler.html" title="Extremely generic traveler that visits every node in the graph once. " alt="" coords="5,80,137,105"/>
-<area shape="rect" id="node3" href="structade_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="20,5,122,31"/>
-<area shape="rect" id="node4" href="structtag_1_1_tag_registry.html" title="tag::TagRegistry" alt="" coords="160,80,278,105"/>
+<area shape="rect" id="node2" href="structteq_1_1_once_traveler.html" title="Extremely generic traveler that visits every node in the graph once. " alt="" coords="5,80,133,105"/>
+<area shape="rect" id="node3" href="structteq_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="20,5,118,31"/>
+<area shape="rect" id="node4" href="structtag_1_1_tag_registry.html" title="Registry for associating tensors to tag collectives. " alt="" coords="157,80,275,105"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -100,39 +100,46 @@ Collaboration diagram for tag::Query:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c07dbd193cd2c503d370bf7e4ff1b00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_query.html#a1c07dbd193cd2c503d370bf7e4ff1b00">Query</a> (<a class="el" href="structtag_1_1_tag_registry.html">TagRegistry</a> &amp;reg=<a class="el" href="namespacetag.html#ad59098e3480c1d395b4b72098a6c0ab7">get_reg</a>())</td></tr>
 <tr class="separator:a1c07dbd193cd2c503d370bf7e4ff1b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae06c467490789ce8c353a8a1a66caff6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_query.html#ae06c467490789ce8c353a8a1a66caff6">visit_leaf</a> (<a class="el" href="structade_1_1i_leaf.html">ade::iLeaf</a> *leaf) override</td></tr>
-<tr class="separator:ae06c467490789ce8c353a8a1a66caff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a969d52db0e9f045f6038882fc56eee14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_query.html#a969d52db0e9f045f6038882fc56eee14">visit_func</a> (<a class="el" href="structade_1_1i_functor.html">ade::iFunctor</a> *func) override</td></tr>
-<tr class="separator:a969d52db0e9f045f6038882fc56eee14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structade_1_1_once_traveler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structade_1_1_once_traveler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structade_1_1_once_traveler.html">ade::OnceTraveler</a></td></tr>
-<tr class="memitem:aae9cb5b0173743bafb69b142c81813dd inherit pub_methods_structade_1_1_once_traveler"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structade_1_1_once_traveler.html#aae9cb5b0173743bafb69b142c81813dd">~OnceTraveler</a> (void)=default</td></tr>
-<tr class="separator:aae9cb5b0173743bafb69b142c81813dd inherit pub_methods_structade_1_1_once_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2adc9c10796912946729ee9b928fa4b4 inherit pub_methods_structade_1_1_once_traveler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structade_1_1_once_traveler.html#a2adc9c10796912946729ee9b928fa4b4">visit</a> (<a class="el" href="structade_1_1i_leaf.html">iLeaf</a> *leaf) override</td></tr>
-<tr class="memdesc:a2adc9c10796912946729ee9b928fa4b4 inherit pub_methods_structade_1_1_once_traveler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="structade_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. ">iTraveler</a>.  <a href="structade_1_1_once_traveler.html#a2adc9c10796912946729ee9b928fa4b4">More...</a><br /></td></tr>
-<tr class="separator:a2adc9c10796912946729ee9b928fa4b4 inherit pub_methods_structade_1_1_once_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7e645c1710c7bd1db073c46d837dafc inherit pub_methods_structade_1_1_once_traveler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structade_1_1_once_traveler.html#ab7e645c1710c7bd1db073c46d837dafc">visit</a> (<a class="el" href="structade_1_1i_functor.html">iFunctor</a> *func) override</td></tr>
-<tr class="memdesc:ab7e645c1710c7bd1db073c46d837dafc inherit pub_methods_structade_1_1_once_traveler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="structade_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. ">iTraveler</a>.  <a href="structade_1_1_once_traveler.html#ab7e645c1710c7bd1db073c46d837dafc">More...</a><br /></td></tr>
-<tr class="separator:ab7e645c1710c7bd1db073c46d837dafc inherit pub_methods_structade_1_1_once_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structade_1_1i_traveler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structade_1_1i_traveler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structade_1_1i_traveler.html">ade::iTraveler</a></td></tr>
-<tr class="memitem:af8279cb7fbe1363298287f4e2061254a inherit pub_methods_structade_1_1i_traveler"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structade_1_1i_traveler.html#af8279cb7fbe1363298287f4e2061254a">~iTraveler</a> (void)=default</td></tr>
-<tr class="separator:af8279cb7fbe1363298287f4e2061254a inherit pub_methods_structade_1_1i_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70891ee44f128d135c0b06684ef25b60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_query.html#a70891ee44f128d135c0b06684ef25b60">visit_leaf</a> (<a class="el" href="structteq_1_1i_leaf.html">teq::iLeaf</a> *leaf) override</td></tr>
+<tr class="memdesc:a70891ee44f128d135c0b06684ef25b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gather the tag key-label to tensor association of visited leaf.  <a href="#a70891ee44f128d135c0b06684ef25b60">More...</a><br /></td></tr>
+<tr class="separator:a70891ee44f128d135c0b06684ef25b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b37ff2055b03a2b548c4ebbd925cd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_query.html#a15b37ff2055b03a2b548c4ebbd925cd4">visit_func</a> (<a class="el" href="structteq_1_1i_functor.html">teq::iFunctor</a> *func) override</td></tr>
+<tr class="memdesc:a15b37ff2055b03a2b548c4ebbd925cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gather the tag key-label to tensor association of visited functor.  <a href="#a15b37ff2055b03a2b548c4ebbd925cd4">More...</a><br /></td></tr>
+<tr class="separator:a15b37ff2055b03a2b548c4ebbd925cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structteq_1_1_once_traveler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structteq_1_1_once_traveler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structteq_1_1_once_traveler.html">teq::OnceTraveler</a></td></tr>
+<tr class="memitem:a6101f6953aaa8a30c3495100e4056398 inherit pub_methods_structteq_1_1_once_traveler"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structteq_1_1_once_traveler.html#a6101f6953aaa8a30c3495100e4056398">~OnceTraveler</a> (void)=default</td></tr>
+<tr class="separator:a6101f6953aaa8a30c3495100e4056398 inherit pub_methods_structteq_1_1_once_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf5172b62a3dd1f5dfe31a48f95bc91 inherit pub_methods_structteq_1_1_once_traveler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structteq_1_1_once_traveler.html#a3bf5172b62a3dd1f5dfe31a48f95bc91">visit</a> (<a class="el" href="structteq_1_1i_leaf.html">iLeaf</a> *leaf) override</td></tr>
+<tr class="memdesc:a3bf5172b62a3dd1f5dfe31a48f95bc91 inherit pub_methods_structteq_1_1_once_traveler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="structteq_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. ">iTraveler</a>.  <a href="structteq_1_1_once_traveler.html#a3bf5172b62a3dd1f5dfe31a48f95bc91">More...</a><br /></td></tr>
+<tr class="separator:a3bf5172b62a3dd1f5dfe31a48f95bc91 inherit pub_methods_structteq_1_1_once_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4077bff72e5795ae9117c76e5dd9c75c inherit pub_methods_structteq_1_1_once_traveler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structteq_1_1_once_traveler.html#a4077bff72e5795ae9117c76e5dd9c75c">visit</a> (<a class="el" href="structteq_1_1i_functor.html">iFunctor</a> *func) override</td></tr>
+<tr class="memdesc:a4077bff72e5795ae9117c76e5dd9c75c inherit pub_methods_structteq_1_1_once_traveler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="structteq_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. ">iTraveler</a>.  <a href="structteq_1_1_once_traveler.html#a4077bff72e5795ae9117c76e5dd9c75c">More...</a><br /></td></tr>
+<tr class="separator:a4077bff72e5795ae9117c76e5dd9c75c inherit pub_methods_structteq_1_1_once_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structteq_1_1i_traveler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structteq_1_1i_traveler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structteq_1_1i_traveler.html">teq::iTraveler</a></td></tr>
+<tr class="memitem:a84a58be792f24b32491a44f46b213475 inherit pub_methods_structteq_1_1i_traveler"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structteq_1_1i_traveler.html#a84a58be792f24b32491a44f46b213475">~iTraveler</a> (void)=default</td></tr>
+<tr class="separator:a84a58be792f24b32491a44f46b213475 inherit pub_methods_structteq_1_1i_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aeb1fb481b9981deff413697177a27ecb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetag.html#a907ebdbcb86b16d3965ce73d8335216d">TTensT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_query.html#aeb1fb481b9981deff413697177a27ecb">labels_</a></td></tr>
+<tr class="memdesc:aeb1fb481b9981deff413697177a27ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map &lt;key:label&gt; to tensors found under tag regsitry.  <a href="#aeb1fb481b9981deff413697177a27ecb">More...</a><br /></td></tr>
 <tr class="separator:aeb1fb481b9981deff413697177a27ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5df564416c5429c1c6e1423562759adb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtag_1_1_tag_registry.html">TagRegistry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_query.html#a5df564416c5429c1c6e1423562759adb">reg_</a></td></tr>
+<tr class="memdesc:a5df564416c5429c1c6e1423562759adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag registry providing the reverse tensor to &lt;key:labels&gt; associations.  <a href="#a5df564416c5429c1c6e1423562759adb">More...</a><br /></td></tr>
 <tr class="separator:a5df564416c5429c1c6e1423562759adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_structade_1_1_once_traveler"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structade_1_1_once_traveler')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structade_1_1_once_traveler.html">ade::OnceTraveler</a></td></tr>
-<tr class="memitem:af6782e674d9cf230b039d82e070d337e inherit pub_attribs_structade_1_1_once_traveler"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; <a class="el" href="structade_1_1i_tensor.html">iTensor</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structade_1_1_once_traveler.html#af6782e674d9cf230b039d82e070d337e">visited_</a></td></tr>
-<tr class="separator:af6782e674d9cf230b039d82e070d337e inherit pub_attribs_structade_1_1_once_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_structteq_1_1_once_traveler"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structteq_1_1_once_traveler')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structteq_1_1_once_traveler.html">teq::OnceTraveler</a></td></tr>
+<tr class="memitem:a482d6cfa0cc7e8d6510e66b9e5e84b7e inherit pub_attribs_structteq_1_1_once_traveler"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; <a class="el" href="structteq_1_1i_tensor.html">iTensor</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structteq_1_1_once_traveler.html#a482d6cfa0cc7e8d6510e66b9e5e84b7e">visited_</a></td></tr>
+<tr class="memdesc:a482d6cfa0cc7e8d6510e66b9e5e84b7e inherit pub_attribs_structteq_1_1_once_traveler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of tensors visited.  <a href="structteq_1_1_once_traveler.html#a482d6cfa0cc7e8d6510e66b9e5e84b7e">More...</a><br /></td></tr>
+<tr class="separator:a482d6cfa0cc7e8d6510e66b9e5e84b7e inherit pub_attribs_structteq_1_1_once_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a1371ee93beeb1f6b958a27a6a6742717"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_query.html#a1371ee93beeb1f6b958a27a6a6742717">save_tags</a> (<a class="el" href="namespacetag.html#ac049e8dda273046c337417103805d260">TagRepsT</a> &amp;tag, <a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *tens)</td></tr>
-<tr class="separator:a1371ee93beeb1f6b958a27a6a6742717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2633474be48f22d9500cbf0fca49cf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_query.html#ab2633474be48f22d9500cbf0fca49cf7">save_tags</a> (<a class="el" href="namespacetag.html#ac049e8dda273046c337417103805d260">TagRepsT</a> &amp;tag, <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *tens)</td></tr>
+<tr class="separator:ab2633474be48f22d9500cbf0fca49cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Implement traveler that gathers the tag-key+label to tensor associations of visited subgraphs </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1c07dbd193cd2c503d370bf7e4ff1b00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c07dbd193cd2c503d370bf7e4ff1b00">&#9670;&nbsp;</a></span>Query()</h2>
 
@@ -160,8 +167,8 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1371ee93beeb1f6b958a27a6a6742717"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1371ee93beeb1f6b958a27a6a6742717">&#9670;&nbsp;</a></span>save_tags()</h2>
+<a id="ab2633474be48f22d9500cbf0fca49cf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2633474be48f22d9500cbf0fca49cf7">&#9670;&nbsp;</a></span>save_tags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,7 +185,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *&#160;</td>
           <td class="paramname"><em>tens</em>&#160;</td>
         </tr>
         <tr>
@@ -196,8 +203,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a969d52db0e9f045f6038882fc56eee14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a969d52db0e9f045f6038882fc56eee14">&#9670;&nbsp;</a></span>visit_func()</h2>
+<a id="a15b37ff2055b03a2b548c4ebbd925cd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15b37ff2055b03a2b548c4ebbd925cd4">&#9670;&nbsp;</a></span>visit_func()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,7 +215,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void tag::Query::visit_func </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structade_1_1i_functor.html">ade::iFunctor</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structteq_1_1i_functor.html">teq::iFunctor</a> *&#160;</td>
           <td class="paramname"><em>func</em></td><td>)</td>
           <td></td>
         </tr>
@@ -220,12 +227,14 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="structade_1_1_once_traveler.html#ab5525147afc93284c5dc0fbf2c4d44b0">ade::OnceTraveler</a>.</p>
+<p>Gather the tag key-label to tensor association of visited functor. </p>
+
+<p>Implements <a class="el" href="structteq_1_1_once_traveler.html#adcd44f7fee22fe3a25ab0aacfcfb883e">teq::OnceTraveler</a>.</p>
 
 </div>
 </div>
-<a id="ae06c467490789ce8c353a8a1a66caff6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae06c467490789ce8c353a8a1a66caff6">&#9670;&nbsp;</a></span>visit_leaf()</h2>
+<a id="a70891ee44f128d135c0b06684ef25b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70891ee44f128d135c0b06684ef25b60">&#9670;&nbsp;</a></span>visit_leaf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,7 +245,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void tag::Query::visit_leaf </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structade_1_1i_leaf.html">ade::iLeaf</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structteq_1_1i_leaf.html">teq::iLeaf</a> *&#160;</td>
           <td class="paramname"><em>leaf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -248,7 +257,9 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="structade_1_1_once_traveler.html#af912a123939911b19b301af391218e0a">ade::OnceTraveler</a>.</p>
+<p>Gather the tag key-label to tensor association of visited leaf. </p>
+
+<p>Implements <a class="el" href="structteq_1_1_once_traveler.html#af83b53110badd60be88f05fa1b933154">teq::OnceTraveler</a>.</p>
 
 </div>
 </div>
@@ -265,6 +276,8 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Map &lt;key:label&gt; to tensors found under tag regsitry. </p>
+
 </div>
 </div>
 <a id="a5df564416c5429c1c6e1423562759adb"></a>
@@ -278,6 +291,8 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Tag registry providing the reverse tensor to &lt;key:labels&gt; associations. </p>
 
 </div>
 </div>

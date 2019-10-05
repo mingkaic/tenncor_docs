@@ -74,13 +74,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Implement voter for ordered (non-commutative) functors.  
+ <a href="structopt_1_1_ordr_voter.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="voter_8hpp_source.html">voter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for opt::OrdrVoter:</div>
 <div class="dyncontent">
 <div class="center"><img src="structopt_1_1_ordr_voter__inherit__graph.png" border="0" usemap="#opt_1_1_ordr_voter_inherit__map" alt="Inheritance graph"/></div>
 <map name="opt_1_1_ordr_voter_inherit__map" id="opt_1_1_ordr_voter_inherit__map">
-<area shape="rect" id="node2" href="structopt_1_1i_voter.html" title="opt::iVoter" alt="" coords="17,5,99,31"/>
+<area shape="rect" id="node2" href="structopt_1_1i_voter.html" title="Rule tree node that identify and selects matching candidates. " alt="" coords="17,5,99,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -88,7 +91,7 @@ Collaboration diagram for opt::OrdrVoter:</div>
 <div class="dyncontent">
 <div class="center"><img src="structopt_1_1_ordr_voter__coll__graph.png" border="0" usemap="#opt_1_1_ordr_voter_coll__map" alt="Collaboration graph"/></div>
 <map name="opt_1_1_ordr_voter_coll__map" id="opt_1_1_ordr_voter_coll__map">
-<area shape="rect" id="node2" href="structopt_1_1i_voter.html" title="opt::iVoter" alt="" coords="17,5,99,31"/>
+<area shape="rect" id="node2" href="structopt_1_1i_voter.html" title="Rule tree node that identify and selects matching candidates. " alt="" coords="17,5,99,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -97,8 +100,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8715864c171d9bfe8075432562a43cfd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_ordr_voter.html#a8715864c171d9bfe8075432562a43cfd">OrdrVoter</a> (std::string label)</td></tr>
 <tr class="separator:a8715864c171d9bfe8075432562a43cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad4b49f22b7ee38c143a007a06b29584"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_ordr_voter.html#aad4b49f22b7ee38c143a007a06b29584">emplace</a> (<a class="el" href="namespaceopt.html#adf3ffa45c46a2277d45cb2e2c159a7fe">VoterArgsT</a> args, <a class="el" href="structopt_1_1_symbol.html">Symbol</a> sym) override</td></tr>
+<tr class="memdesc:aad4b49f22b7ee38c143a007a06b29584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="structopt_1_1i_voter.html" title="Rule tree node that identify and selects matching candidates. ">iVoter</a>.  <a href="#aad4b49f22b7ee38c143a007a06b29584">More...</a><br /></td></tr>
 <tr class="separator:aad4b49f22b7ee38c143a007a06b29584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a5f1b942c7963be3facbf3fb77f83b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopt.html#ac27cf0ca8a59c842f6736b669ddab492">CandsT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_ordr_voter.html#a2a5f1b942c7963be3facbf3fb77f83b3">inspect</a> (const <a class="el" href="namespaceopt.html#abe088a56f57ea4ec30237b5aad94a7c5">CandArgsT</a> &amp;args) const override</td></tr>
+<tr class="memdesc:a2a5f1b942c7963be3facbf3fb77f83b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="structopt_1_1i_voter.html" title="Rule tree node that identify and selects matching candidates. ">iVoter</a>.  <a href="#a2a5f1b942c7963be3facbf3fb77f83b3">More...</a><br /></td></tr>
 <tr class="separator:a2a5f1b942c7963be3facbf3fb77f83b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structopt_1_1i_voter"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structopt_1_1i_voter')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structopt_1_1i_voter.html">opt::iVoter</a></td></tr>
 <tr class="memitem:aaf2505ff1b23f19eed593d721b73db36 inherit pub_methods_structopt_1_1i_voter"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_voter.html#aaf2505ff1b23f19eed593d721b73db36">~iVoter</a> (void)=default</td></tr>
@@ -107,11 +112,15 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a40d5452f483d234e5fb2ada0a4315ee6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_ordr_voter.html#a40d5452f483d234e5fb2ada0a4315ee6">label_</a></td></tr>
+<tr class="memdesc:a40d5452f483d234e5fb2ada0a4315ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Label type of the functor.  <a href="#a40d5452f483d234e5fb2ada0a4315ee6">More...</a><br /></td></tr>
 <tr class="separator:a40d5452f483d234e5fb2ada0a4315ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4083912a3b141f7ca6e6000187761d65"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespaceopt.html#adf3ffa45c46a2277d45cb2e2c159a7fe">VoterArgsT</a>, <a class="el" href="structopt_1_1_symbol.html">Symbol</a>, <a class="el" href="structopt_1_1_ordr_hasher.html">OrdrHasher</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_ordr_voter.html#a4083912a3b141f7ca6e6000187761d65">args_</a></td></tr>
+<tr class="memdesc:a4083912a3b141f7ca6e6000187761d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map functor arguments to emplaced symbols.  <a href="#a4083912a3b141f7ca6e6000187761d65">More...</a><br /></td></tr>
 <tr class="separator:a4083912a3b141f7ca6e6000187761d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Implement voter for ordered (non-commutative) functors. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8715864c171d9bfe8075432562a43cfd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8715864c171d9bfe8075432562a43cfd">&#9670;&nbsp;</a></span>OrdrVoter()</h2>
 
@@ -173,6 +182,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Implementation of <a class="el" href="structopt_1_1i_voter.html" title="Rule tree node that identify and selects matching candidates. ">iVoter</a>. </p>
+
 <p>Implements <a class="el" href="structopt_1_1i_voter.html#a0d2584849d54d10af40675bafc5aa072">opt::iVoter</a>.</p>
 
 </div>
@@ -201,6 +212,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Implementation of <a class="el" href="structopt_1_1i_voter.html" title="Rule tree node that identify and selects matching candidates. ">iVoter</a>. </p>
+
 <p>Implements <a class="el" href="structopt_1_1i_voter.html#aa0063d0de7125d66b16bfb5111d18b5f">opt::iVoter</a>.</p>
 
 </div>
@@ -218,6 +231,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Map functor arguments to emplaced symbols. </p>
+
 </div>
 </div>
 <a id="a40d5452f483d234e5fb2ada0a4315ee6"></a>
@@ -231,6 +246,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Label type of the functor. </p>
 
 </div>
 </div>

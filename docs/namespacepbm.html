@@ -72,63 +72,40 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpbm_1_1_graph_info.html">GraphInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains all information necessary to recreate labelled ADE graph.  <a href="structpbm_1_1_graph_info.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpbm_1_1_graph_saver.html">GraphSaver</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Graph serialization traveler.  <a href="structpbm_1_1_graph_saver.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpbm_1_1i_loader.html">iLoader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for building implementations of leaves, functors, shaper, and coorder.  <a href="structpbm_1_1i_loader.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpbm_1_1i_saver.html">iSaver</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpbm_1_1_pathed_tens.html">PathedTens</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tree node for labeling Tensptrs.  <a href="structpbm_1_1_pathed_tens.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for saving implementations of leaves, shaper, and coorder.  <a href="structpbm_1_1i_saver.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a8fdfbc53d17d97799b9bf964dddccced"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepbm.html#a8fdfbc53d17d97799b9bf964dddccced">TensT</a> = std::vector&lt; <a class="el" href="namespaceade.html#aceac6eb9293c8b2001737f3b26667993">ade::TensptrT</a> &gt;</td></tr>
-<tr class="memdesc:a8fdfbc53d17d97799b9bf964dddccced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tensptr vector type.  <a href="#a8fdfbc53d17d97799b9bf964dddccced">More...</a><br /></td></tr>
-<tr class="separator:a8fdfbc53d17d97799b9bf964dddccced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af50e36fbc20a588d5a1b6a1d37b71dde"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepbm.html#af50e36fbc20a588d5a1b6a1d37b71dde">TensptrsT</a> = std::vector&lt; <a class="el" href="namespaceteq.html#ac6fa10743961a35c5b0f38da4e86e4ae">teq::TensptrT</a> &gt;</td></tr>
+<tr class="memdesc:af50e36fbc20a588d5a1b6a1d37b71dde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tensptr vector type.  <a href="#af50e36fbc20a588d5a1b6a1d37b71dde">More...</a><br /></td></tr>
+<tr class="separator:af50e36fbc20a588d5a1b6a1d37b71dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a786a0ff59fd4c78d1e89d85fdd9e18b9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepbm.html#a786a0ff59fd4c78d1e89d85fdd9e18b9">StringsT</a> = std::list&lt; fmts::string &gt;</td></tr>
 <tr class="memdesc:a786a0ff59fd4c78d1e89d85fdd9e18b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">String list type used for paths.  <a href="#a786a0ff59fd4c78d1e89d85fdd9e18b9">More...</a><br /></td></tr>
 <tr class="separator:a786a0ff59fd4c78d1e89d85fdd9e18b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a955cdbd7419581e6e76661a56ac279b3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepbm.html#a955cdbd7419581e6e76661a56ac279b3">PathedMapT</a> = std::unordered_map&lt; <a class="el" href="namespaceade.html#aceac6eb9293c8b2001737f3b26667993">ade::TensptrT</a>, <a class="el" href="namespacepbm.html#a786a0ff59fd4c78d1e89d85fdd9e18b9">StringsT</a> &gt;</td></tr>
-<tr class="memdesc:a955cdbd7419581e6e76661a56ac279b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map Tensptrs to a string path type.  <a href="#a955cdbd7419581e6e76661a56ac279b3">More...</a><br /></td></tr>
-<tr class="separator:a955cdbd7419581e6e76661a56ac279b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0eb7a587fc51c6c771fcb8dfc34fa14d"><td class="memTemplParams" colspan="2">template&lt;typename LOAD , typename std::enable_if&lt; std::is_base_of&lt; iLoader, LOAD &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a0eb7a587fc51c6c771fcb8dfc34fa14d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacepbm.html#a0eb7a587fc51c6c771fcb8dfc34fa14d">load_graph</a> (<a class="el" href="structpbm_1_1_graph_info.html">GraphInfo</a> &amp;out, const cortenn::Graph &amp;in)</td></tr>
-<tr class="memdesc:a0eb7a587fc51c6c771fcb8dfc34fa14d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return graph info through out available from in graph.  <a href="#a0eb7a587fc51c6c771fcb8dfc34fa14d">More...</a><br /></td></tr>
-<tr class="separator:a0eb7a587fc51c6c771fcb8dfc34fa14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affcdd26a77bb52579e5d728873a46787"><td class="memTemplParams" colspan="2">template&lt;typename LOAD , typename std::enable_if&lt; std::is_base_of&lt; iLoader, LOAD &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:affcdd26a77bb52579e5d728873a46787"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacepbm.html#affcdd26a77bb52579e5d728873a46787">load_graph</a> (<a class="el" href="namespaceteq.html#aa0aae66867316669d56d796744984033">teq::TensptrSetT</a> &amp;out, const cortenn::Graph &amp;in)</td></tr>
+<tr class="memdesc:affcdd26a77bb52579e5d728873a46787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return graph info through out available from in graph.  <a href="#affcdd26a77bb52579e5d728873a46787">More...</a><br /></td></tr>
+<tr class="separator:affcdd26a77bb52579e5d728873a46787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="data_8hpp.html">data.hpp</a> pbm</p>
-<p>Purpose: Define functions for marshaling equation graph</p>
+<p>Purpose: Define interfaces for marshaling concrete TEQ equation graph</p>
 <p>graph.hpp pbm</p>
 <p>Purpose: Define functions for marshal and unmarshal equation graph</p>
 <p><a class="el" href="save_8hpp.html">save.hpp</a> pbm</p>
 <p>Purpose: Define functions for marshaling equation graph </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a955cdbd7419581e6e76661a56ac279b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a955cdbd7419581e6e76661a56ac279b3">&#9670;&nbsp;</a></span>PathedMapT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacepbm.html#a955cdbd7419581e6e76661a56ac279b3">pbm::PathedMapT</a> = typedef std::unordered_map&lt;<a class="el" href="namespaceade.html#aceac6eb9293c8b2001737f3b26667993">ade::TensptrT</a>,<a class="el" href="namespacepbm.html#a786a0ff59fd4c78d1e89d85fdd9e18b9">StringsT</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Map Tensptrs to a string path type. </p>
-
-</div>
-</div>
 <a id="a786a0ff59fd4c78d1e89d85fdd9e18b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a786a0ff59fd4c78d1e89d85fdd9e18b9">&#9670;&nbsp;</a></span>StringsT</h2>
 
@@ -145,14 +122,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8fdfbc53d17d97799b9bf964dddccced"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fdfbc53d17d97799b9bf964dddccced">&#9670;&nbsp;</a></span>TensT</h2>
+<a id="af50e36fbc20a588d5a1b6a1d37b71dde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af50e36fbc20a588d5a1b6a1d37b71dde">&#9670;&nbsp;</a></span>TensptrsT</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacepbm.html#a8fdfbc53d17d97799b9bf964dddccced">pbm::TensT</a> = typedef std::vector&lt;<a class="el" href="namespaceade.html#aceac6eb9293c8b2001737f3b26667993">ade::TensptrT</a>&gt;</td>
+          <td class="memname">using <a class="el" href="namespacepbm.html#af50e36fbc20a588d5a1b6a1d37b71dde">pbm::TensptrsT</a> = typedef std::vector&lt;<a class="el" href="namespaceteq.html#ac6fa10743961a35c5b0f38da4e86e4ae">teq::TensptrT</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -162,8 +139,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a0eb7a587fc51c6c771fcb8dfc34fa14d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eb7a587fc51c6c771fcb8dfc34fa14d">&#9670;&nbsp;</a></span>load_graph()</h2>
+<a id="affcdd26a77bb52579e5d728873a46787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affcdd26a77bb52579e5d728873a46787">&#9670;&nbsp;</a></span>load_graph()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,7 +150,7 @@ template&lt;typename LOAD , typename std::enable_if&lt; std::is_base_of&lt; iLoa
         <tr>
           <td class="memname">void pbm::load_graph </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structpbm_1_1_graph_info.html">GraphInfo</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceteq.html#aa0aae66867316669d56d796744984033">teq::TensptrSetT</a> &amp;&#160;</td>
           <td class="paramname"><em>out</em>, </td>
         </tr>
         <tr>

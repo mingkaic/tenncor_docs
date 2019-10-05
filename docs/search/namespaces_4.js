@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['opcodes',['opcodes',['../namespaceopcodes.html',1,'']]],
-  ['opt',['opt',['../namespaceopt.html',1,'']]]
+  ['layr',['layr',['../namespacelayr.html',1,'']]]
 ];

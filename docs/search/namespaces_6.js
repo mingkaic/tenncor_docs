@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tag',['tag',['../namespacetag.html',1,'']]],
-  ['template',['template',['../namespacetemplate.html',1,'']]]
+  ['opcodes',['opcodes',['../namespaceopcodes.html',1,'']]],
+  ['opt',['opt',['../namespaceopt.html',1,'']]]
 ];

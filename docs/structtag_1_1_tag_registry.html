@@ -75,35 +75,43 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Registry for associating tensors to tag collectives.  
+ <a href="structtag_1_1_tag_registry.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="tag_8hpp_source.html">tag.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7e7641626bfed3949f9ff756d0b376f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#a7e7641626bfed3949f9ff756d0b376f3">add_tag</a> (<a class="el" href="namespaceade.html#a0cd5d0a139b258e530ac3140bc7ccbb1">ade::TensrefT</a> tens, <a class="el" href="namespacetag.html#afc9a6249e41256c44b77accfebc7b8d7">TagptrT</a> tag)</td></tr>
-<tr class="separator:a7e7641626bfed3949f9ff756d0b376f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92bc87b5b2203885e60f182394b406da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetag.html#ac049e8dda273046c337417103805d260">TagRepsT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#a92bc87b5b2203885e60f182394b406da">get_tags</a> (const <a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *tens)</td></tr>
-<tr class="separator:a92bc87b5b2203885e60f182394b406da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07de6ec00ff67e1bfa86781e9ae412fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#a07de6ec00ff67e1bfa86781e9ae412fd">move_tags</a> (<a class="el" href="namespaceade.html#a0cd5d0a139b258e530ac3140bc7ccbb1">ade::TensrefT</a> dest, const <a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *source)</td></tr>
-<tr class="separator:a07de6ec00ff67e1bfa86781e9ae412fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3d2c73cc2b8ebcfa57e02ae8c5faaac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetag.html#ab8867e7ea346e3c9f16da98cdc0c34ce">TagrF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#ad3d2c73cc2b8ebcfa57e02ae8c5faaac">tagr_by_key</a> (std::string tag_key)</td></tr>
+<tr class="memitem:a22e3bce3891ab995aa402af1ac250ecf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#a22e3bce3891ab995aa402af1ac250ecf">add_tag</a> (<a class="el" href="namespaceteq.html#a1ede4d960abd0ae4d3e7f350e2e43232">teq::TensrefT</a> tens, <a class="el" href="namespacetag.html#afc9a6249e41256c44b77accfebc7b8d7">TagptrT</a> tag)</td></tr>
+<tr class="memdesc:a22e3bce3891ab995aa402af1ac250ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add tag to collective referenced by tens.  <a href="#a22e3bce3891ab995aa402af1ac250ecf">More...</a><br /></td></tr>
+<tr class="separator:a22e3bce3891ab995aa402af1ac250ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d74a58aba2b4e5aa607af167d30e81a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetag.html#ac049e8dda273046c337417103805d260">TagRepsT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#a7d74a58aba2b4e5aa607af167d30e81a">get_tags</a> (const <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *tens)</td></tr>
+<tr class="memdesc:a7d74a58aba2b4e5aa607af167d30e81a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all key-labels under the collective associated with tens.  <a href="#a7d74a58aba2b4e5aa607af167d30e81a">More...</a><br /></td></tr>
+<tr class="separator:a7d74a58aba2b4e5aa607af167d30e81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab41a0720e6ee130734e2875d20804a75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#ab41a0720e6ee130734e2875d20804a75">move_tags</a> (<a class="el" href="namespaceteq.html#a1ede4d960abd0ae4d3e7f350e2e43232">teq::TensrefT</a> dest, const <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *source)</td></tr>
+<tr class="separator:ab41a0720e6ee130734e2875d20804a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d2c73cc2b8ebcfa57e02ae8c5faaac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetag.html#af0fbd40e64ba759e9d5261aac62f352a">TagrF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#ad3d2c73cc2b8ebcfa57e02ae8c5faaac">tagr_by_key</a> (std::string tag_key)</td></tr>
 <tr class="memdesc:ad3d2c73cc2b8ebcfa57e02ae8c5faaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return tagger associated to TagRepsT key.  <a href="#ad3d2c73cc2b8ebcfa57e02ae8c5faaac">More...</a><br /></td></tr>
 <tr class="separator:ad3d2c73cc2b8ebcfa57e02ae8c5faaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a841ed51e5268ab19d35a898b7ecaa6e4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#a841ed51e5268ab19d35a898b7ecaa6e4">register_tagr</a> (std::string tag_key, <a class="el" href="namespacetag.html#ab8867e7ea346e3c9f16da98cdc0c34ce">TagrF</a> tagr)</td></tr>
+<tr class="memitem:a841ed51e5268ab19d35a898b7ecaa6e4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#a841ed51e5268ab19d35a898b7ecaa6e4">register_tagr</a> (std::string tag_key, <a class="el" href="namespacetag.html#af0fbd40e64ba759e9d5261aac62f352a">TagrF</a> tagr)</td></tr>
 <tr class="separator:a841ed51e5268ab19d35a898b7ecaa6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa0a43a93779cb22de02053d3fa96b347"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structtag_1_1_tens_key.html">TensKey</a>, <a class="el" href="structtag_1_1_tag_collective.html">TagCollective</a>, <a class="el" href="structtag_1_1_tens_key_hash.html">TensKeyHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#aa0a43a93779cb22de02053d3fa96b347">registry_</a></td></tr>
+<tr class="memdesc:aa0a43a93779cb22de02053d3fa96b347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map tensor to tag collective.  <a href="#aa0a43a93779cb22de02053d3fa96b347">More...</a><br /></td></tr>
 <tr class="separator:aa0a43a93779cb22de02053d3fa96b347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a9f6c716b1643dda452c4483360162894"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, <a class="el" href="namespacetag.html#ab8867e7ea346e3c9f16da98cdc0c34ce">TagrF</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#a9f6c716b1643dda452c4483360162894">key_tagr_assoc_</a></td></tr>
+<tr class="memitem:a9f6c716b1643dda452c4483360162894"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, <a class="el" href="namespacetag.html#af0fbd40e64ba759e9d5261aac62f352a">TagrF</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_registry.html#a9f6c716b1643dda452c4483360162894">key_tagr_assoc_</a></td></tr>
 <tr class="separator:a9f6c716b1643dda452c4483360162894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7e7641626bfed3949f9ff756d0b376f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e7641626bfed3949f9ff756d0b376f3">&#9670;&nbsp;</a></span>add_tag()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Registry for associating tensors to tag collectives. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a22e3bce3891ab995aa402af1ac250ecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22e3bce3891ab995aa402af1ac250ecf">&#9670;&nbsp;</a></span>add_tag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -114,7 +122,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void tag::TagRegistry::add_tag </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceade.html#a0cd5d0a139b258e530ac3140bc7ccbb1">ade::TensrefT</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceteq.html#a1ede4d960abd0ae4d3e7f350e2e43232">teq::TensrefT</a>&#160;</td>
           <td class="paramname"><em>tens</em>, </td>
         </tr>
         <tr>
@@ -136,10 +144,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Add tag to collective referenced by tens. </p>
+
 </div>
 </div>
-<a id="a92bc87b5b2203885e60f182394b406da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92bc87b5b2203885e60f182394b406da">&#9670;&nbsp;</a></span>get_tags()</h2>
+<a id="a7d74a58aba2b4e5aa607af167d30e81a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d74a58aba2b4e5aa607af167d30e81a">&#9670;&nbsp;</a></span>get_tags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,7 +160,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="namespacetag.html#ac049e8dda273046c337417103805d260">TagRepsT</a> tag::TagRegistry::get_tags </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *&#160;</td>
           <td class="paramname"><em>tens</em></td><td>)</td>
           <td></td>
         </tr>
@@ -162,10 +172,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return all key-labels under the collective associated with tens. </p>
+
 </div>
 </div>
-<a id="a07de6ec00ff67e1bfa86781e9ae412fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07de6ec00ff67e1bfa86781e9ae412fd">&#9670;&nbsp;</a></span>move_tags()</h2>
+<a id="ab41a0720e6ee130734e2875d20804a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab41a0720e6ee130734e2875d20804a75">&#9670;&nbsp;</a></span>move_tags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,13 +188,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void tag::TagRegistry::move_tags </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceade.html#a0cd5d0a139b258e530ac3140bc7ccbb1">ade::TensrefT</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceteq.html#a1ede4d960abd0ae4d3e7f350e2e43232">teq::TensrefT</a>&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *&#160;</td>
           <td class="paramname"><em>source</em>&#160;</td>
         </tr>
         <tr>
@@ -197,6 +209,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Move all key-labels under collective associated with source to collective associated with dest If source did not have an associated collective, just create a new collective under dest Dest must not be expired, but source can be expired </p>
 
 </div>
 </div>
@@ -218,7 +231,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacetag.html#ab8867e7ea346e3c9f16da98cdc0c34ce">TagrF</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacetag.html#af0fbd40e64ba759e9d5261aac62f352a">TagrF</a>&#160;</td>
           <td class="paramname"><em>tagr</em>&#160;</td>
         </tr>
         <tr>
@@ -233,6 +246,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Return successfully registered key of associated tagr Return value is the same as tag_key </p>
 
 </div>
 </div>
@@ -246,7 +260,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacetag.html#ab8867e7ea346e3c9f16da98cdc0c34ce">TagrF</a> tag::TagRegistry::tagr_by_key </td>
+          <td class="memname"><a class="el" href="namespacetag.html#af0fbd40e64ba759e9d5261aac62f352a">TagrF</a> tag::TagRegistry::tagr_by_key </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag_key</em></td><td>)</td>
@@ -275,7 +289,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;std::string,<a class="el" href="namespacetag.html#ab8867e7ea346e3c9f16da98cdc0c34ce">TagrF</a>&gt; tag::TagRegistry::key_tagr_assoc_</td>
+          <td class="memname">std::unordered_map&lt;std::string,<a class="el" href="namespacetag.html#af0fbd40e64ba759e9d5261aac62f352a">TagrF</a>&gt; tag::TagRegistry::key_tagr_assoc_</td>
         </tr>
       </table>
   </td>
@@ -298,6 +312,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Map tensor to tag collective. </p>
 
 </div>
 </div>

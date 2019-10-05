@@ -71,32 +71,40 @@ $(function() {
 <p>High-level diagram available: <a href="https://drive.google.com/file/d/1PrsFa7Duj4Whlu_m0lmFr5JGikGnU3gC/view?usp=sharing">https://drive.google.com/file/d/1PrsFa7Duj4Whlu_m0lmFr5JGikGnU3gC/view?usp=sharing</a></p>
 <h2>Components</h2>
 <ul>
-<li><a class="el" href="md_ade__r_e_a_d_m_e__a_d_e.html">ADE (Automatic Differentiation Engine)</a></li>
+<li>TEQ (Tensor EQuations)</li>
 </ul>
 <p>This module supplies syntax tree for equation and generates derivative. Constraints to the equation is limited to each tensor's shape.</p>
 <ul>
 <li>DBG (Debug)</li>
 </ul>
-<p>This module is contains debug libraries for ADE Graphs.</p>
+<p>This module is contains debug libraries for TEQ Graphs.</p>
 <ul>
-<li><a class="el" href="md_ead__r_e_a_d_m_e__e_a_d.html">EAD (Eigen ADE Operators)</a></li>
+<li>ETEQ (Eigen TEQ)</li>
 </ul>
-<p>This module is implements basic operations for Tenncor's ADE Tensor objects generated through pybinder. Additionally, ead also defines data format and (de)serialization methods required by PBM.</p>
+<p>This module is implements basic operations for Tenncor's TEQ Tensor objects generated through pybinder. Additionally, ETEQ also defines data format and (de)serialization methods required by PBM.</p>
 <ul>
-<li>OPT (Optimizer)</li>
+<li><a class="el" href="md_opt__r_e_a_d_m_e__o_p_t.html">OPT (OPTimizer)</a></li>
 </ul>
-<p>This module specifies graph optimization through ADE's visitor pattern.</p>
+<p>This module specifies graph optimization through TEQ's visitor pattern.</p>
 <ul>
-<li><a class="el" href="md_pbm__r_e_a_d_m_e__p_b_m.html">PBM (Protobuf Marshaller)</a></li>
+<li><a class="el" href="md_pbm__r_e_a_d_m_e__p_b_m.html">PBM (ProtoBuf Marshaller)</a></li>
 </ul>
-<p>This module marshals any ADE graph, but requires data serialization functors when saving and loading.</p>
+<p>This module marshals any TEQ graph, but requires data serialization functors when saving and loading.</p>
 <ul>
-<li>TAG (Tagger)</li>
+<li><a class="el" href="md_tag__r_e_a_d_m_e__t_a_g.html">TAG (TAGger)</a></li>
 </ul>
-<p>This module tags ADE tensors with labels.</p>
+<p>This module tags TEQ tensors with labels.</p>
+<ul>
+<li><a class="el" href="md_ccur__r_e_a_d_m_e__c_c_u_r.html">CCUR (ConCURrent session)</a></li>
+</ul>
+<p>This module implements session that updates graph nodes concurrently</p>
+<ul>
+<li><a class="el" href="md_layr__r_e_a_d_m_e__l_a_y_r.html">LAYR (LAYeR models)</a></li>
+</ul>
+<p>This module implements common machine learning models</p>
 <h2>Tools and utility</h2>
 <ul>
-<li>DBG (Debugger)</li>
+<li>DBG (DeBuGger)</li>
 </ul>
 <h2>Building</h2>
 <p>Tenncor uses bazel 0.28+.</p>

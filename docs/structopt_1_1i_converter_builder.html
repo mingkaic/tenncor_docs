@@ -73,13 +73,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Interface for TEQ extensions to construct conversion rules.  
+ <a href="structopt_1_1i_converter_builder.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="opt_2parse_8hpp_source.html">parse.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for opt::iConverterBuilder:</div>
 <div class="dyncontent">
 <div class="center"><img src="structopt_1_1i_converter_builder__inherit__graph.png" border="0" usemap="#opt_1_1i_converter_builder_inherit__map" alt="Inheritance graph"/></div>
 <map name="opt_1_1i_converter_builder_inherit__map" id="opt_1_1i_converter_builder_inherit__map">
-<area shape="rect" id="node2" href="structead_1_1_converter_builder.html" title="ead::ConverterBuilder\&lt; T \&gt;" alt="" coords="5,79,187,104"/>
+<area shape="rect" id="node2" href="structeteq_1_1_converter_builder.html" title="Optimization builder&#39;s implementation for building ETEQ nodes. " alt="" coords="5,79,191,104"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -87,16 +90,21 @@ Inheritance diagram for opt::iConverterBuilder:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7ef9b562d90dbefa70a353862a6b6a3d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter_builder.html#a7ef9b562d90dbefa70a353862a6b6a3d">~iConverterBuilder</a> (void)=default</td></tr>
 <tr class="separator:a7ef9b562d90dbefa70a353862a6b6a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a109b8bf8282bf0ff5ad1765b5fcc3e52"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopt.html#a1defc2ba52cbd29514de443d558a52c6">CstConvertF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter_builder.html#a109b8bf8282bf0ff5ad1765b5fcc3e52">build_cconv</a> (void) const =0</td></tr>
+<tr class="memitem:a109b8bf8282bf0ff5ad1765b5fcc3e52"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopt.html#a3234fc3997a9e31604fb8ccb51d8efe0">CstConvertF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter_builder.html#a109b8bf8282bf0ff5ad1765b5fcc3e52">build_cconv</a> (void) const =0</td></tr>
+<tr class="memdesc:a109b8bf8282bf0ff5ad1765b5fcc3e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return converter func that identifies extended TEQ specific constants.  <a href="#a109b8bf8282bf0ff5ad1765b5fcc3e52">More...</a><br /></td></tr>
 <tr class="separator:a109b8bf8282bf0ff5ad1765b5fcc3e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bfdea93718b822237f54ae4ee76e1c9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopt.html#a9309debb487ca336943cfc15c5e54f11">ConvptrT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter_builder.html#a2bfdea93718b822237f54ae4ee76e1c9">build</a> (const ::<a class="el" href="struct_subgraph.html">Subgraph</a> *sg, const <a class="el" href="structopt_1_1_rules_context.html">RulesContext</a> &amp;ctx) const =0</td></tr>
 <tr class="separator:a2bfdea93718b822237f54ae4ee76e1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3529b654307e6971dc7cf91cac920890"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceade.html#ae79e5f62f19677e24148be5a1f8b1afd">ade::CoordptrT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter_builder.html#a3529b654307e6971dc7cf91cac920890">shaperize</a> (::<a class="el" href="struct_num_list.html">NumList</a> *list) const =0</td></tr>
-<tr class="separator:a3529b654307e6971dc7cf91cac920890"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3fd40706d6bb6a4ebc8cf2b7fe977a0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceade.html#ae79e5f62f19677e24148be5a1f8b1afd">ade::CoordptrT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter_builder.html#ab3fd40706d6bb6a4ebc8cf2b7fe977a0">coorderize</a> (::<a class="el" href="struct_num_list.html">NumList</a> *list) const =0</td></tr>
-<tr class="separator:ab3fd40706d6bb6a4ebc8cf2b7fe977a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9130c1a4bcf4d4d4498596380002851"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceteq.html#a01f57fd31296c84fa2a64cad8c65be2c">teq::CoordptrT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter_builder.html#af9130c1a4bcf4d4d4498596380002851">shaperize</a> (::<a class="el" href="struct_num_list.html">NumList</a> *list) const =0</td></tr>
+<tr class="memdesc:af9130c1a4bcf4d4d4498596380002851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return shape mapper given parsed C representation.  <a href="#af9130c1a4bcf4d4d4498596380002851">More...</a><br /></td></tr>
+<tr class="separator:af9130c1a4bcf4d4d4498596380002851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4395b5bff11a1a3b64526ce40632aad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceteq.html#a01f57fd31296c84fa2a64cad8c65be2c">teq::CoordptrT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter_builder.html#aa4395b5bff11a1a3b64526ce40632aad">coorderize</a> (::<a class="el" href="struct_num_list.html">NumList</a> *list) const =0</td></tr>
+<tr class="memdesc:aa4395b5bff11a1a3b64526ce40632aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return coordinate mapper given parsed C representation.  <a href="#aa4395b5bff11a1a3b64526ce40632aad">More...</a><br /></td></tr>
+<tr class="separator:aa4395b5bff11a1a3b64526ce40632aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Interface for TEQ extensions to construct conversion rules. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7ef9b562d90dbefa70a353862a6b6a3d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ef9b562d90dbefa70a353862a6b6a3d">&#9670;&nbsp;</a></span>~iConverterBuilder()</h2>
 
@@ -157,8 +165,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Return extended TEQ builders specific to a target rule graph and statement contexts </p>
 
-<p>Implemented in <a class="el" href="structead_1_1_converter_builder.html#ae03599d3d98ad248560ccf1331946026">ead::ConverterBuilder&lt; T &gt;</a>.</p>
+<p>Implemented in <a class="el" href="structeteq_1_1_converter_builder.html#a243c9cdeccb579809e3e3841d7e394a6">eteq::ConverterBuilder&lt; T &gt;</a>.</p>
 
 </div>
 </div>
@@ -172,7 +181,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceopt.html#a1defc2ba52cbd29514de443d558a52c6">CstConvertF</a> opt::iConverterBuilder::build_cconv </td>
+          <td class="memname">virtual <a class="el" href="namespaceopt.html#a3234fc3997a9e31604fb8ccb51d8efe0">CstConvertF</a> opt::iConverterBuilder::build_cconv </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -186,12 +195,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structead_1_1_converter_builder.html#ab01a1304db803da584e12c809c55605b">ead::ConverterBuilder&lt; T &gt;</a>.</p>
+<p>Return converter func that identifies extended TEQ specific constants. </p>
+
+<p>Implemented in <a class="el" href="structeteq_1_1_converter_builder.html#a10e123a44f0ce00c52b0123e136a1068">eteq::ConverterBuilder&lt; T &gt;</a>.</p>
 
 </div>
 </div>
-<a id="ab3fd40706d6bb6a4ebc8cf2b7fe977a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3fd40706d6bb6a4ebc8cf2b7fe977a0">&#9670;&nbsp;</a></span>coorderize()</h2>
+<a id="aa4395b5bff11a1a3b64526ce40632aad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4395b5bff11a1a3b64526ce40632aad">&#9670;&nbsp;</a></span>coorderize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,7 +211,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceade.html#ae79e5f62f19677e24148be5a1f8b1afd">ade::CoordptrT</a> opt::iConverterBuilder::coorderize </td>
+          <td class="memname">virtual <a class="el" href="namespaceteq.html#a01f57fd31296c84fa2a64cad8c65be2c">teq::CoordptrT</a> opt::iConverterBuilder::coorderize </td>
           <td>(</td>
           <td class="paramtype">::<a class="el" href="struct_num_list.html">NumList</a> *&#160;</td>
           <td class="paramname"><em>list</em></td><td>)</td>
@@ -214,12 +225,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structead_1_1_converter_builder.html#a69684cd238de19ab3ee0bfbe35e1b87f">ead::ConverterBuilder&lt; T &gt;</a>.</p>
+<p>Return coordinate mapper given parsed C representation. </p>
+
+<p>Implemented in <a class="el" href="structeteq_1_1_converter_builder.html#a46931bb0b1a6b701cdf1610defe28864">eteq::ConverterBuilder&lt; T &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a3529b654307e6971dc7cf91cac920890"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3529b654307e6971dc7cf91cac920890">&#9670;&nbsp;</a></span>shaperize()</h2>
+<a id="af9130c1a4bcf4d4d4498596380002851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9130c1a4bcf4d4d4498596380002851">&#9670;&nbsp;</a></span>shaperize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +241,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceade.html#ae79e5f62f19677e24148be5a1f8b1afd">ade::CoordptrT</a> opt::iConverterBuilder::shaperize </td>
+          <td class="memname">virtual <a class="el" href="namespaceteq.html#a01f57fd31296c84fa2a64cad8c65be2c">teq::CoordptrT</a> opt::iConverterBuilder::shaperize </td>
           <td>(</td>
           <td class="paramtype">::<a class="el" href="struct_num_list.html">NumList</a> *&#160;</td>
           <td class="paramname"><em>list</em></td><td>)</td>
@@ -242,7 +255,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structead_1_1_converter_builder.html#a836c7845f5a138ee6292e176d83adcb2">ead::ConverterBuilder&lt; T &gt;</a>.</p>
+<p>Return shape mapper given parsed C representation. </p>
+
+<p>Implemented in <a class="el" href="structeteq_1_1_converter_builder.html#ac08985d380ba80329c6eb7ded4dbc22b">eteq::ConverterBuilder&lt; T &gt;</a>.</p>
 
 </div>
 </div>

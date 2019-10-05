@@ -74,6 +74,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Configuration wrapper for creating the client.  
+ <a href="structdbg_1_1_client_config.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="client_8hpp_source.html">client.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -86,11 +89,15 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a68d6885c4210cb28b00c455c91f8f909"><td class="memItemLeft" align="right" valign="top">std::chrono::duration&lt; int64_t, std::milli &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_client_config.html#a68d6885c4210cb28b00c455c91f8f909">request_duration_</a></td></tr>
+<tr class="memdesc:a68d6885c4210cb28b00c455c91f8f909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request timeout.  <a href="#a68d6885c4210cb28b00c455c91f8f909">More...</a><br /></td></tr>
 <tr class="separator:a68d6885c4210cb28b00c455c91f8f909"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc7106be41bff8a0cd14060c6e728b77"><td class="memItemLeft" align="right" valign="top">std::chrono::duration&lt; int64_t, std::milli &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_client_config.html#abc7106be41bff8a0cd14060c6e728b77">stream_duration_</a></td></tr>
+<tr class="memdesc:abc7106be41bff8a0cd14060c6e728b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream timeout.  <a href="#abc7106be41bff8a0cd14060c6e728b77">More...</a><br /></td></tr>
 <tr class="separator:abc7106be41bff8a0cd14060c6e728b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Configuration wrapper for creating the client. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aef1cabacb3cb2f2258aab9459bee3459"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef1cabacb3cb2f2258aab9459bee3459">&#9670;&nbsp;</a></span>ClientConfig() <span class="overload">[1/2]</span></h2>
 
@@ -166,6 +173,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">        std::chrono::milliseconds(250)</div></div><!-- fragment -->
+<p>Request timeout. </p>
+
 </div>
 </div>
 <a id="abc7106be41bff8a0cd14060c6e728b77"></a>
@@ -180,6 +189,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">        std::chrono::milliseconds(10000)</div></div><!-- fragment -->
+<p>Stream timeout. </p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>

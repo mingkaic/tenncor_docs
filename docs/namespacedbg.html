@@ -63,6 +63,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -73,19 +74,46 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_client_config.html">ClientConfig</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration wrapper for creating the client.  <a href="structdbg_1_1_client_config.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_custom_functor.html">CustomFunctor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor that runs a custom functor instead of Eigen operators.  <a href="structdbg_1_1_custom_functor.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_custom_functor_node.html">CustomFunctorNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structdbg_1_1_custom_functor.html" title="Functor that runs a custom functor instead of Eigen operators. ">CustomFunctor</a>'s node wrapper.  <a href="structdbg_1_1_custom_functor_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_edge_info.html">EdgeInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Graph edge intermediate representation.  <a href="structdbg_1_1_edge_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_edge_info_hash.html">EdgeInfoHash</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Graph edge hashing.  <a href="structdbg_1_1_edge_info_hash.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_graph_emitter_client.html">GraphEmitterClient</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GRPC client that checks for server health and make graph creation and update calls.  <a href="structdbg_1_1_graph_emitter_client.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html">InteractiveSession</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Session that makes GRPC client calls.  <a href="structdbg_1_1_interactive_session.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a3951111531d9cf16576bc0a08b91dca6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3951111531d9cf16576bc0a08b91dca6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacedbg.html#a3951111531d9cf16576bc0a08b91dca6">DataMapT</a> = std::vector&lt; <a class="el" href="structeteq_1_1_op_arg.html">eteq::OpArg</a>&lt; T &gt; &gt;</td></tr>
+<tr class="memdesc:a3951111531d9cf16576bc0a08b91dca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arguments of raw data and shapes.  <a href="#a3951111531d9cf16576bc0a08b91dca6">More...</a><br /></td></tr>
+<tr class="separator:a3951111531d9cf16576bc0a08b91dca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7cf383187ba352160e15f6d5d94db08"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac7cf383187ba352160e15f6d5d94db08"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacedbg.html#ac7cf383187ba352160e15f6d5d94db08">CustomOpF</a> = std::function&lt; void(<a class="el" href="namespaceeteq.html#abd4eca370319f13ac2e7806d12d6198a">eteq::TensorT</a>&lt; T &gt; &amp;, const <a class="el" href="namespacedbg.html#a3951111531d9cf16576bc0a08b91dca6">DataMapT</a>&lt; T &gt; &amp;)&gt;</td></tr>
+<tr class="memdesc:ac7cf383187ba352160e15f6d5d94db08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom functor to assign DataMap to Eigen tensor output.  <a href="#ac7cf383187ba352160e15f6d5d94db08">More...</a><br /></td></tr>
+<tr class="separator:ac7cf383187ba352160e15f6d5d94db08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a8473448a3c07032b1b0ea5652aa3e1a5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8473448a3c07032b1b0ea5652aa3e1a5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceeteq.html#a7cf4dd467ba202b498f9e1e1f6a4b604">eteq::NodeptrT</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacedbg.html#a8473448a3c07032b1b0ea5652aa3e1a5">make_functor</a> (<a class="el" href="namespacedbg.html#ac7cf383187ba352160e15f6d5d94db08">CustomOpF</a>&lt; T &gt; op, <a class="el" href="namespaceeteq.html#ae49425c0fdf5a99ea53a38575e59893e">eteq::ArgsT</a>&lt; T &gt; args)</td></tr>
+<tr class="memdesc:a8473448a3c07032b1b0ea5652aa3e1a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return custom functor node given custom function and arguments.  <a href="#a8473448a3c07032b1b0ea5652aa3e1a5">More...</a><br /></td></tr>
+<tr class="separator:a8473448a3c07032b1b0ea5652aa3e1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada40ea60dba248369ff58c0bd0ef22c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedbg.html#ada40ea60dba248369ff58c0bd0ef22c9">operator==</a> (const <a class="el" href="structdbg_1_1_edge_info.html">EdgeInfo</a> &amp;lhs, const <a class="el" href="structdbg_1_1_edge_info.html">EdgeInfo</a> &amp;rhs)</td></tr>
+<tr class="memdesc:ada40ea60dba248369ff58c0bd0ef22c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Graph edge equality.  <a href="#ada40ea60dba248369ff58c0bd0ef22c9">More...</a><br /></td></tr>
 <tr class="separator:ada40ea60dba248369ff58c0bd0ef22c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -101,7 +129,81 @@ Variables</h2></td></tr>
 <tr class="memitem:a60e744ab67b98f4a24e5defe0d90e1c2"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedbg.html#a60e744ab67b98f4a24e5defe0d90e1c2">edge_label_fmt</a> = &quot;parent-child-%d&quot;</td></tr>
 <tr class="separator:a60e744ab67b98f4a24e5defe0d90e1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="custom__functor_8hpp.html">custom_functor.hpp</a> dbg</p>
+<p>Purpose: Define custom functor version of eteq functor</p>
+<p><a class="el" href="client_8hpp.html">client.hpp</a> dbg</p>
+<p>Purpose: Implement grpc client that create and update graphs </p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="ac7cf383187ba352160e15f6d5d94db08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7cf383187ba352160e15f6d5d94db08">&#9670;&nbsp;</a></span>CustomOpF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacedbg.html#ac7cf383187ba352160e15f6d5d94db08">dbg::CustomOpF</a> = typedef std::function&lt;void(<a class="el" href="namespaceeteq.html#abd4eca370319f13ac2e7806d12d6198a">eteq::TensorT</a>&lt;T&gt;&amp;,const <a class="el" href="namespacedbg.html#a3951111531d9cf16576bc0a08b91dca6">DataMapT</a>&lt;T&gt;&amp;)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Custom functor to assign DataMap to Eigen tensor output. </p>
+
+</div>
+</div>
+<a id="a3951111531d9cf16576bc0a08b91dca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3951111531d9cf16576bc0a08b91dca6">&#9670;&nbsp;</a></span>DataMapT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacedbg.html#a3951111531d9cf16576bc0a08b91dca6">dbg::DataMapT</a> = typedef std::vector&lt;<a class="el" href="structeteq_1_1_op_arg.html">eteq::OpArg</a>&lt;T&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Arguments of raw data and shapes. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a8473448a3c07032b1b0ea5652aa3e1a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8473448a3c07032b1b0ea5652aa3e1a5">&#9670;&nbsp;</a></span>make_functor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceeteq.html#a7cf4dd467ba202b498f9e1e1f6a4b604">eteq::NodeptrT</a>&lt;T&gt; dbg::make_functor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacedbg.html#ac7cf383187ba352160e15f6d5d94db08">CustomOpF</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>op</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceeteq.html#ae49425c0fdf5a99ea53a38575e59893e">eteq::ArgsT</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return custom functor node given custom function and arguments. </p>
+
+</div>
+</div>
 <a id="ada40ea60dba248369ff58c0bd0ef22c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada40ea60dba248369ff58c0bd0ef22c9">&#9670;&nbsp;</a></span>operator==()</h2>
 
@@ -135,6 +237,8 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Graph edge equality. </p>
 
 </div>
 </div>

@@ -1,4 +1,31 @@
 var searchData=
 [
-  ['query',['Query',['../structtag_1_1_query.html#a1c07dbd193cd2c503d370bf7e4ff1b00',1,'tag::Query']]]
+  ['p2cshape',['p2cshape',['../namespacepyead.html#abdb9f29c3267eca59c6cee8c258ffa17',1,'pyead']]],
+  ['pad',['pad',['../namespaceeteq.html#a236d86feb700308b6e2fc4168527543f',1,'eteq']]],
+  ['pad_5fmap',['pad_map',['../namespaceeteq.html#a0d9ea7d77ece833b813f27cc66921ff6',1,'eteq']]],
+  ['parse',['parse',['../namespaceegen.html#acd7a646b0c592300078467a49739af05',1,'egen.parse()'],['../namespaceeteq.html#a3b213b064d0666818d6bf1032793a410',1,'eteq::parse()'],['../namespaceopt.html#ab9d9be1023f1cc9481f117420fef6e5f',1,'opt::parse()']]],
+  ['parse_5ffile',['parse_file',['../namespaceeteq.html#a21df38c5192a494cd98aee08267922cd',1,'eteq::parse_file()'],['../def_8h.html#a930812b450d7668d13e980082070dc1f',1,'parse_file():&#160;def.h'],['../namespaceopt.html#adcc3a35d1f8bdea7ba10cdf2e5f47a4a',1,'opt::parse_file()']]],
+  ['parse_5fstr',['parse_str',['../def_8h.html#a1aa550f58aec9ca446a418aa4a046ca5',1,'def.h']]],
+  ['pathfinder',['PathFinder',['../structteq_1_1_path_finder.html#a22c263e5814a063654e5f49d09f55a75',1,'teq::PathFinder']]],
+  ['permute',['permute',['../namespaceeteq.html#a34aedb407e3db6dd9e4c1195f2d3175b',1,'eteq::permute(std::vector&lt; teq::RankT &gt; dims)'],['../namespaceeteq.html#a0cc7257e5e12cf3abfb27b44e7f2fa0f',1,'eteq::permute(teq::Shape &amp;outshape, const OpArg&lt; T &gt; &amp;in)'],['../namespaceteq.html#a2afcd104a1d78e47afe6e612fa515a7a',1,'teq::permute()']]],
+  ['permute_5fgrad',['permute_grad',['../namespaceeteq.html#a5ef512fab11d10f8cdcd332158aa236f',1,'eteq']]],
+  ['permute_5fmap',['permute_map',['../namespaceeteq.html#a05f6edf0a50ed2bea142af1af8034871',1,'eteq::permute_map()'],['../namespaceteq.html#a091ec1351d04e7938417afa35972ce1d',1,'teq::permute_map()']]],
+  ['plugin_5fid',['plugin_id',['../classapis_1_1_a_p_is_plugin.html#a9fbbca2c905565577ca3738982a66496',1,'apis.APIsPlugin.plugin_id()'],['../classdtypes_1_1_d_types_plugin.html#af14ea0afa6ca5bab4b619a23e2dc55f1',1,'dtypes.DTypesPlugin.plugin_id()'],['../classopcodes_1_1_opcodes_plugin.html#a885db6bab70519af4059564a3f1d740d',1,'opcodes.OpcodesPlugin.plugin_id()'],['../classpyapis_1_1_py_a_p_is_plugin.html#aed74bc03e303049402290f2579250d8c',1,'pyapis.PyAPIsPlugin.plugin_id()']]],
+  ['populate_5fgraph',['populate_graph',['../namespaceopt.html#aeb46fdca23d490e6277e3d81a45fc8b6',1,'opt']]],
+  ['pow',['pow',['../namespaceeteq.html#a7fb1c5706f8516219aeca650890fa644',1,'eteq']]],
+  ['prettyequation',['PrettyEquation',['../struct_pretty_equation.html#abe52b36f6c27ff7c65ebbdde12d5705a',1,'PrettyEquation']]],
+  ['prettytensor',['PrettyTensor',['../struct_pretty_tensor.html#ac10b1604231e1724e9be9474d1223d75',1,'PrettyTensor']]],
+  ['prettytree',['PrettyTree',['../struct_pretty_tree.html#ab453db0dc22779618c52fd4bf4e8df4a',1,'PrettyTree']]],
+  ['print',['print',['../struct_pretty_tensor.html#a89609d319d683bb82832cabdfd8ef973',1,'PrettyTensor::print()'],['../struct_pretty_equation.html#aceb9bdb3d4e4bd3669652f3245bfee52',1,'PrettyEquation::print(std::ostream &amp;out, const teq::TensptrT &amp;ptr)'],['../struct_pretty_equation.html#a626970724aad4672386da7d89b862204',1,'PrettyEquation::print(std::ostream &amp;out, teq::iTensor *ptr)'],['../struct_pretty_tree.html#a993ee394110876f1dbfde54caa7b741b',1,'PrettyTree::print()']]],
+  ['print_5fgraph',['print_graph',['../namespacecsv__to__png.html#a0e34972ea616fbd204ca0d567e2d485b',1,'csv_to_png']]],
+  ['print_5fhelper',['print_helper',['../struct_pretty_tensor.html#a61389f537a166e42e926b8d5d2f7b1e5',1,'PrettyTensor::print_helper()'],['../struct_pretty_tree.html#ac1dc9c9d25347be832743fe0a9175994',1,'PrettyTree::print_helper()']]],
+  ['process',['process',['../classapis_1_1_a_p_is_plugin.html#a262c0f389de225335db6948bd25b86b9',1,'apis.APIsPlugin.process()'],['../classdtypes_1_1_d_types_plugin.html#a1c794e26e723a23a045d94ee7aa5fe77',1,'dtypes.DTypesPlugin.process()'],['../classopcodes_1_1_opcodes_plugin.html#a03c6cf58fd9c55a584ac811ee83e729a',1,'opcodes.OpcodesPlugin.process()'],['../classpyapis_1_1_py_a_p_is_plugin.html#a7f5b23bacc91570d5522f9a949f3ea28',1,'pyapis.PyAPIsPlugin.process()']]],
+  ['property_5ftag',['property_tag',['../structtag_1_1_property_registry.html#a7be447c378508b929bb788326215d7cd',1,'tag::PropertyRegistry']]],
+  ['propertyregistry',['PropertyRegistry',['../structtag_1_1_property_registry.html#a9704715e05d9c7cb0fb28fe2a80647aa',1,'tag::PropertyRegistry']]],
+  ['proptag',['PropTag',['../structtag_1_1_prop_tag.html#a69374138c772268bd80eba9267a11e94',1,'tag::PropTag']]],
+  ['ptrlist_5fclear',['ptrlist_clear',['../list_8h.html#a905fa8de6149362666d05980f8b83679',1,'list.h']]],
+  ['ptrlist_5ffree',['ptrlist_free',['../list_8h.html#a499add6fcfa755b7b08afed2a38b0b17',1,'list.h']]],
+  ['ptrlist_5fpushback',['ptrlist_pushback',['../list_8h.html#a4f4bf57d9dda2f04ec03bb298d6dbe51',1,'list.h']]],
+  ['push_5fback',['push_back',['../structlayr_1_1_sequential_model.html#a3c6142cce3dfdd7697165a0355f2f165',1,'layr::SequentialModel']]],
+  ['pybind11_5fmodule',['PYBIND11_MODULE',['../ccur_8cpp.html#a00d46bce7bf78c672586ef5a6a935d09',1,'PYBIND11_MODULE(ccur, m):&#160;ccur.cpp'],['../dbg_2python_2eteq_8cpp.html#ab8ad133b52bbeca7fa8a78553ae3e75d',1,'PYBIND11_MODULE(eteq_mocker, m):&#160;eteq.cpp'],['../grpc_8cpp.html#a410dddaa228f0b4ce6498b2e59315796',1,'PYBIND11_MODULE(grpc_dbg, m):&#160;grpc.cpp'],['../stream_8cpp.html#a87f730d0c9c92f688f13cd13f5b49020',1,'PYBIND11_MODULE(stream_dbg, m):&#160;stream.cpp'],['../eteq_2python_2eteq_8cpp.html#aee2be1217bdc11823c0a8d793b9d141d',1,'PYBIND11_MODULE(eteq, m):&#160;eteq.cpp']]]
 ];

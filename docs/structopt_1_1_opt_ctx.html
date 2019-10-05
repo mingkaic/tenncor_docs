@@ -73,26 +73,34 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Encapsulation of all conversion rules.  
+ <a href="structopt_1_1_opt_ctx.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="optimize_8hpp_source.html">optimize.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for opt::OptCtx:</div>
 <div class="dyncontent">
 <div class="center"><img src="structopt_1_1_opt_ctx__coll__graph.png" border="0" usemap="#opt_1_1_opt_ctx_coll__map" alt="Collaboration graph"/></div>
 <map name="opt_1_1_opt_ctx_coll__map" id="opt_1_1_opt_ctx_coll__map">
-<area shape="rect" id="node2" href="structopt_1_1_voter_pool.html" title="opt::VoterPool" alt="" coords="5,5,110,31"/>
+<area shape="rect" id="node2" href="structopt_1_1_voter_pool.html" title="Parsed representation of a rule tree. " alt="" coords="5,5,110,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a25caf2c6daeeb1b88873bddf13ad9132"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structopt_1_1_voter_pool.html">VoterPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_opt_ctx.html#a25caf2c6daeeb1b88873bddf13ad9132">voters_</a></td></tr>
+<tr class="memdesc:a25caf2c6daeeb1b88873bddf13ad9132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Voters for identifying subgraphs associated with conversion target ids.  <a href="#a25caf2c6daeeb1b88873bddf13ad9132">More...</a><br /></td></tr>
 <tr class="separator:a25caf2c6daeeb1b88873bddf13ad9132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa3765da6f66663e91b3aa04092bda7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopt.html#a1defc2ba52cbd29514de443d558a52c6">CstConvertF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_opt_ctx.html#a7aa3765da6f66663e91b3aa04092bda7">const_conv_</a></td></tr>
+<tr class="memitem:a7aa3765da6f66663e91b3aa04092bda7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopt.html#a3234fc3997a9e31604fb8ccb51d8efe0">CstConvertF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_opt_ctx.html#a7aa3765da6f66663e91b3aa04092bda7">const_conv_</a></td></tr>
+<tr class="memdesc:a7aa3765da6f66663e91b3aa04092bda7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for identifying constant tensors.  <a href="#a7aa3765da6f66663e91b3aa04092bda7">More...</a><br /></td></tr>
 <tr class="separator:a7aa3765da6f66663e91b3aa04092bda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcc833ef4e7c82028ce1729985806054"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, <a class="el" href="namespaceopt.html#a9309debb487ca336943cfc15c5e54f11">ConvptrT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_opt_ctx.html#adcc833ef4e7c82028ce1729985806054">converts_</a></td></tr>
+<tr class="memdesc:adcc833ef4e7c82028ce1729985806054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of conversion target ids to conversion target builders.  <a href="#adcc833ef4e7c82028ce1729985806054">More...</a><br /></td></tr>
 <tr class="separator:adcc833ef4e7c82028ce1729985806054"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Encapsulation of all conversion rules. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7aa3765da6f66663e91b3aa04092bda7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7aa3765da6f66663e91b3aa04092bda7">&#9670;&nbsp;</a></span>const_conv_</h2>
 
@@ -100,10 +108,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceopt.html#a1defc2ba52cbd29514de443d558a52c6">CstConvertF</a> opt::OptCtx::const_conv_</td>
+          <td class="memname"><a class="el" href="namespaceopt.html#a3234fc3997a9e31604fb8ccb51d8efe0">CstConvertF</a> opt::OptCtx::const_conv_</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Function for identifying constant tensors. </p>
 
 </div>
 </div>
@@ -119,6 +129,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Map of conversion target ids to conversion target builders. </p>
+
 </div>
 </div>
 <a id="a25caf2c6daeeb1b88873bddf13ad9132"></a>
@@ -132,6 +144,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Voters for identifying subgraphs associated with conversion target ids. </p>
 
 </div>
 </div>

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['write_5fjson',['write_json',['../inspector_8cpp.html#a0850fbab636aac84d4081aafdcc06a3c',1,'inspector.cpp']]]
+  ['weight_5f',['weight_',['../structlayr_1_1_conv_builder.html#a32cf5c7745adcaeb85cfeb9b95baaf16',1,'layr::ConvBuilder::weight_()'],['../structlayr_1_1_conv.html#ae371ea82782a75c0d475d9ed84711866',1,'layr::Conv::weight_()'],['../structlayr_1_1_dense_builder.html#af04c9bed6cb2e1a5a65001b0905fd755',1,'layr::DenseBuilder::weight_()'],['../structlayr_1_1_dense.html#adf8b49801878730424ebbfa19c74b93c',1,'layr::Dense::weight_()']]],
+  ['weights_5f',['weights_',['../structccur_1_1_session.html#acd63962dae5effe689f523b2026176cd',1,'ccur::Session']]],
+  ['write_5fjson',['write_json',['../pbm_2inspector_8cpp.html#a0850fbab636aac84d4081aafdcc06a3c',1,'inspector.cpp']]]
 ];

@@ -74,6 +74,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Collective of generic <a class="el" href="structtag_1_1i_tag.html">iTag</a> instances.  
+ <a href="structtag_1_1_tag_collective.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="tag_8hpp_source.html">tag.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -85,10 +88,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a03a147a4cc3cbe58ca6297d6eac9f820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtag_1_1_tag_collective.html">TagCollective</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_collective.html#a03a147a4cc3cbe58ca6297d6eac9f820">operator=</a> (<a class="el" href="structtag_1_1_tag_collective.html">TagCollective</a> &amp;&amp;other)</td></tr>
 <tr class="separator:a03a147a4cc3cbe58ca6297d6eac9f820"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85e27fa9f47bd09d3fe75477d82c324b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_collective.html#a85e27fa9f47bd09d3fe75477d82c324b">absorb</a> (<a class="el" href="structtag_1_1_tag_collective.html">TagCollective</a> &amp;&amp;other)</td></tr>
+<tr class="memdesc:a85e27fa9f47bd09d3fe75477d82c324b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absorb iTags of the other collective.  <a href="#a85e27fa9f47bd09d3fe75477d82c324b">More...</a><br /></td></tr>
 <tr class="separator:a85e27fa9f47bd09d3fe75477d82c324b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad17d5481aa71b9f9c1046f8ea3b13c08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_collective.html#ad17d5481aa71b9f9c1046f8ea3b13c08">add</a> (<a class="el" href="namespacetag.html#afc9a6249e41256c44b77accfebc7b8d7">TagptrT</a> entry)</td></tr>
 <tr class="separator:ad17d5481aa71b9f9c1046f8ea3b13c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0baed2294016bee286f1045767237122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetag.html#ac049e8dda273046c337417103805d260">TagRepsT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_collective.html#a0baed2294016bee286f1045767237122">get_tags</a> (void) const</td></tr>
+<tr class="memdesc:a0baed2294016bee286f1045767237122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all key-values under collected <a class="el" href="structtag_1_1i_tag.html">iTag</a>.  <a href="#a0baed2294016bee286f1045767237122">More...</a><br /></td></tr>
 <tr class="separator:a0baed2294016bee286f1045767237122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -96,7 +101,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a45f14552504d872c2f87586e50025a1e"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; size_t, <a class="el" href="namespacetag.html#afc9a6249e41256c44b77accfebc7b8d7">TagptrT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_tag_collective.html#a45f14552504d872c2f87586e50025a1e">tags_</a></td></tr>
 <tr class="separator:a45f14552504d872c2f87586e50025a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Collective of generic <a class="el" href="structtag_1_1i_tag.html">iTag</a> instances. </p>
+<p>only one instance of a particular type of <a class="el" href="structtag_1_1i_tag.html">iTag</a> can be stored in an instance of <a class="el" href="structtag_1_1_tag_collective.html" title="Collective of generic iTag instances. ">TagCollective</a>, adding subsequent instances of the same type absorbs new instances into the collective </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae6e513a6b74bdccc23b100fa3f41e7c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae6e513a6b74bdccc23b100fa3f41e7c2">&#9670;&nbsp;</a></span>TagCollective() <span class="overload">[1/2]</span></h2>
 
@@ -174,6 +182,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Absorb iTags of the other collective. </p>
+
 </div>
 </div>
 <a id="ad17d5481aa71b9f9c1046f8ea3b13c08"></a>
@@ -199,6 +209,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Add new <a class="el" href="structtag_1_1i_tag.html">iTag</a> if the entry is not in the collective, otherwise absorb the entry </p>
 
 </div>
 </div>
@@ -225,6 +236,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return all key-values under collected <a class="el" href="structtag_1_1i_tag.html">iTag</a>. </p>
 
 </div>
 </div>

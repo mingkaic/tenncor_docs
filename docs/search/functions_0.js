@@ -2,6 +2,7 @@ var searchData=
 [
   ['_5fapply_5fstyles',['_apply_styles',['../namespacecsv__to__png.html#ac86331e1e4dd1f1e9b13863664c002e2',1,'csv_to_png']]],
   ['_5fdecl_5ffunc',['_decl_func',['../namespaceapis.html#af082b6ddf4f3e76c469d78d5e5cf3558',1,'apis']]],
+  ['_5fdef_5fop',['_def_op',['../namespacepyapis.html#a38db54d109c4627f7c4967f1c985c5ae',1,'pyapis']]],
   ['_5fdefn_5ffunc',['_defn_func',['../namespaceapis.html#a17c0ec59cc3da40d742d6663955561da',1,'apis']]],
   ['_5fhandle_5fapi_5fheader',['_handle_api_header',['../namespaceapis.html#af86173c808ed77da53e37d4cd03b8094',1,'apis']]],
   ['_5fhandle_5fapi_5fsource',['_handle_api_source',['../namespaceapis.html#aba7642663c01a1b1a164ae7360b890da',1,'apis']]],
@@ -15,6 +16,7 @@ var searchData=
   ['_5fhandle_5fmapping',['_handle_mapping',['../namespacedtypes.html#a2edb6aa02f84533951e4fe2f62487a7e',1,'dtypes']]],
   ['_5fhandle_5fname2codes',['_handle_name2codes',['../namespaceopcodes.html#ad1895613e67d988a780e3eb777cd2fb7',1,'opcodes']]],
   ['_5fhandle_5fname2types',['_handle_name2types',['../namespacedtypes.html#a1bd0f7501c8ab16cc0bc5403cc0d9d77',1,'dtypes']]],
+  ['_5fhandle_5fname_5fmangling',['_handle_name_mangling',['../namespacepyapis.html#ab7ea476912399995c890d99615c856a3',1,'pyapis']]],
   ['_5fhandle_5fopcodes',['_handle_opcodes',['../namespaceopcodes.html#a6d3d757032d6e2bc310e006785a35f50',1,'opcodes']]],
   ['_5fhandle_5fops',['_handle_ops',['../namespaceopcodes.html#a1a985e12456f8c3d1e7d00a3c1d8f056',1,'opcodes']]],
   ['_5fhandle_5fparams',['_handle_params',['../namespaceopcodes.html#ab16ea018a0b3190d540e12f47ee4b1d3',1,'opcodes']]],
@@ -22,12 +24,14 @@ var searchData=
   ['_5fhandle_5fpybind_5ftype',['_handle_pybind_type',['../namespacepyapis.html#acdaf923477ea8d3a85be7b0dfa1ea279',1,'pyapis']]],
   ['_5fhandle_5ftype2names',['_handle_type2names',['../namespacedtypes.html#aed8efcb38bd1c1d18be75ed1751a6e19',1,'dtypes']]],
   ['_5fhandle_5ftypesizes',['_handle_typesizes',['../namespacedtypes.html#a30455ea929612fcf124b075bfcf3d1eb',1,'dtypes']]],
-  ['_5fhandle_5funique_5fwrap',['_handle_unique_wrap',['../namespacepyapis.html#a863d3af16bee0276179e7c7cf190a5de',1,'pyapis']]],
+  ['_5fmangle_5ffunc',['_mangle_func',['../namespacepyapis.html#a09eceff886350b52713c93b76150ffa8',1,'pyapis']]],
   ['_5fnullcheck',['_nullcheck',['../namespaceapis.html#adc1252319a39d043cec653420558d44a',1,'apis']]],
   ['_5fparse_5fargs',['_parse_args',['../namespaceapis.html#a9940ca508507d48152e1e16a84b1351d',1,'apis']]],
+  ['_5fparse_5fdescription',['_parse_description',['../namespacepyapis.html#ae9e18d1b53b6cb32b9a73922e5a1a450',1,'pyapis']]],
+  ['_5fparse_5fheader_5fargs',['_parse_header_args',['../namespacepyapis.html#a33ff334a6a2a02de5e40b66ce3ee7910',1,'pyapis']]],
+  ['_5fparse_5fpyargs',['_parse_pyargs',['../namespacepyapis.html#af755b9a504f8730ff43020869100d00f',1,'pyapis']]],
   ['_5fstr_5fclean',['_str_clean',['../namespacecsv__to__png.html#aae6cf0944862b60f2cfc3ee2c2d96730',1,'csv_to_png']]],
   ['_5fstrip_5ftemplate_5fprefix',['_strip_template_prefix',['../namespacepyapis.html#acb0427e0309100c1e01b667299be08e8',1,'pyapis']]],
   ['_5fsub_5fpybind',['_sub_pybind',['../namespacepyapis.html#a7bdc64b92170f29fe2b1a29ba29e36ac',1,'pyapis']]],
-  ['_5ftemplate_5fdefn_5ffunc',['_template_defn_func',['../namespaceapis.html#a8d9ca43392e67c4f728dfa88458e378d',1,'apis']]],
-  ['_5fwrap_5ffunc',['_wrap_func',['../namespacepyapis.html#a777c2746d7789dd51e925fd22f0bf6be',1,'pyapis']]]
+  ['_5ftemplate_5fdefn_5ffunc',['_template_defn_func',['../namespaceapis.html#a8d9ca43392e67c4f728dfa88458e378d',1,'apis']]]
 ];

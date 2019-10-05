@@ -76,13 +76,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Session that makes GRPC client calls.  
+ <a href="structdbg_1_1_interactive_session.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="dbg_2grpc_2session_8hpp_source.html">session.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dbg::InteractiveSession:</div>
 <div class="dyncontent">
 <div class="center"><img src="structdbg_1_1_interactive_session__inherit__graph.png" border="0" usemap="#dbg_1_1_interactive_session_inherit__map" alt="Inheritance graph"/></div>
 <map name="dbg_1_1_interactive_session_inherit__map" id="dbg_1_1_interactive_session_inherit__map">
-<area shape="rect" id="node2" href="structead_1_1i_session.html" title="ead::iSession" alt="" coords="35,5,136,31"/>
+<area shape="rect" id="node2" href="structeteq_1_1i_session.html" title="Session interface that tracks and rapidly updates subgraphs. " alt="" coords="33,5,138,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -90,13 +93,13 @@ Collaboration diagram for dbg::InteractiveSession:</div>
 <div class="dyncontent">
 <div class="center"><img src="structdbg_1_1_interactive_session__coll__graph.png" border="0" usemap="#dbg_1_1_interactive_session_coll__map" alt="Collaboration graph"/></div>
 <map name="dbg_1_1_interactive_session_coll__map" id="dbg_1_1_interactive_session_coll__map">
-<area shape="rect" id="node2" href="structead_1_1i_session.html" title="ead::iSession" alt="" coords="5,80,107,105"/>
-<area shape="rect" id="node6" href="structead_1_1_session.html" title="ead::Session" alt="" coords="116,167,215,192"/>
-<area shape="rect" id="node3" href="structdbg_1_1_graph_emitter_client.html" title="dbg::GraphEmitterClient" alt="" coords="239,167,404,192"/>
-<area shape="rect" id="node4" href="structdbg_1_1_client_config.html" title="dbg::ClientConfig" alt="" coords="266,80,390,105"/>
-<area shape="rect" id="node5" href="structtag_1_1_tag_registry.html" title="tag::TagRegistry" alt="" coords="428,167,546,192"/>
-<area shape="rect" id="node7" href="structade_1_1_graph_stat.html" title="Traveler that maps each tensor to its subtree&#39;s maximum depth. " alt="" coords="131,80,243,105"/>
-<area shape="rect" id="node8" href="structade_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="136,5,238,31"/>
+<area shape="rect" id="node2" href="structeteq_1_1i_session.html" title="Session interface that tracks and rapidly updates subgraphs. " alt="" coords="5,5,110,31"/>
+<area shape="rect" id="node8" href="structeteq_1_1_session.html" title="eteq::Session" alt="" coords="72,92,174,117"/>
+<area shape="rect" id="node3" href="structdbg_1_1_graph_emitter_client.html" title="GRPC client that checks for server health and make graph creation and update calls. " alt="" coords="198,92,363,117"/>
+<area shape="rect" id="node4" href="structdbg_1_1_client_config.html" title="Configuration wrapper for creating the client. " alt="" coords="219,5,342,31"/>
+<area shape="rect" id="node5" href="structtag_1_1_tag_registry.html" title="Registry for associating tensors to tag collectives. " alt="" coords="387,92,505,117"/>
+<area shape="rect" id="node6" href="structteq_1_1_graph_stat.html" title="Traveler that maps each tensor to its subtree&#39;s maximum depth. " alt="" coords="529,92,637,117"/>
+<area shape="rect" id="node7" href="structteq_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="534,5,633,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -106,54 +109,72 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0f596deccf30ea9fcdb48fc74fd09092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33604dc325cde2f7f21f547cafb16c18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a33604dc325cde2f7f21f547cafb16c18">InteractiveSession</a> (std::string host, <a class="el" href="structdbg_1_1_client_config.html">ClientConfig</a> client_cfg=<a class="el" href="structdbg_1_1_client_config.html">ClientConfig</a>())</td></tr>
 <tr class="separator:a33604dc325cde2f7f21f547cafb16c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe0a26dcce85231ed7b8dff50abf2cb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#afe0a26dcce85231ed7b8dff50abf2cb4">track</a> (<a class="el" href="namespaceade.html#ab4db19108073a8a4dc5b8cb6aa85ad42">ade::TensT</a> roots) override</td></tr>
-<tr class="separator:afe0a26dcce85231ed7b8dff50abf2cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a551a74148628ba15d384e8f30a525124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a551a74148628ba15d384e8f30a525124">update</a> (<a class="el" href="namespaceead.html#aff90e1546478c326db915993e541d4a0">ead::TensSetT</a> updated={}, <a class="el" href="namespaceead.html#aff90e1546478c326db915993e541d4a0">ead::TensSetT</a> ignores={}) override</td></tr>
-<tr class="separator:a551a74148628ba15d384e8f30a525124"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade870427e4e82657e932cd12b9a1608b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#ade870427e4e82657e932cd12b9a1608b">update_target</a> (<a class="el" href="namespaceead.html#aff90e1546478c326db915993e541d4a0">ead::TensSetT</a> targeted, <a class="el" href="namespaceead.html#aff90e1546478c326db915993e541d4a0">ead::TensSetT</a> updated={}) override</td></tr>
-<tr class="separator:ade870427e4e82657e932cd12b9a1608b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af877797c66530baad063a8faeba56a57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#af877797c66530baad063a8faeba56a57">track</a> (<a class="el" href="namespaceteq.html#aedad6309a6ae3cb41f5554dd13bbecfd">teq::TensptrsT</a> roots) override</td></tr>
+<tr class="memdesc:af877797c66530baad063a8faeba56a57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of iSession.  <a href="#af877797c66530baad063a8faeba56a57">More...</a><br /></td></tr>
+<tr class="separator:af877797c66530baad063a8faeba56a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af14c59ad1479e239fd44dac7e79a9f7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#af14c59ad1479e239fd44dac7e79a9f7c">update</a> (<a class="el" href="namespaceteq.html#a06d5cc6ba08f690e19ee8cf46d289993">teq::TensSetT</a> ignored={}) override</td></tr>
+<tr class="memdesc:af14c59ad1479e239fd44dac7e79a9f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of iSession.  <a href="#af14c59ad1479e239fd44dac7e79a9f7c">More...</a><br /></td></tr>
+<tr class="separator:af14c59ad1479e239fd44dac7e79a9f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a100b0e2ba9eec4884f3ea358237e14bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a100b0e2ba9eec4884f3ea358237e14bf">update_target</a> (<a class="el" href="namespaceteq.html#a06d5cc6ba08f690e19ee8cf46d289993">teq::TensSetT</a> targeted, <a class="el" href="namespaceteq.html#a06d5cc6ba08f690e19ee8cf46d289993">teq::TensSetT</a> ignored={}) override</td></tr>
+<tr class="memdesc:a100b0e2ba9eec4884f3ea358237e14bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of iSession.  <a href="#a100b0e2ba9eec4884f3ea358237e14bf">More...</a><br /></td></tr>
+<tr class="separator:a100b0e2ba9eec4884f3ea358237e14bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45e0ff8b099d2a2cbe348bcc7cb61b5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a45e0ff8b099d2a2cbe348bcc7cb61b5e">optimize</a> (const <a class="el" href="structopt_1_1_opt_ctx.html">opt::OptCtx</a> &amp;rules)</td></tr>
+<tr class="memdesc:a45e0ff8b099d2a2cbe348bcc7cb61b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply input optimization rules using opt module, then re-track.  <a href="#a45e0ff8b099d2a2cbe348bcc7cb61b5e">More...</a><br /></td></tr>
 <tr class="separator:a45e0ff8b099d2a2cbe348bcc7cb61b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a707c6a647d924b6e82034dc237b5085c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a707c6a647d924b6e82034dc237b5085c">join</a> (void)</td></tr>
+<tr class="memdesc:a707c6a647d924b6e82034dc237b5085c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait until client completes its request calls.  <a href="#a707c6a647d924b6e82034dc237b5085c">More...</a><br /></td></tr>
 <tr class="separator:a707c6a647d924b6e82034dc237b5085c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1750d043ef4d86d5548a9fd305cea108"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a1750d043ef4d86d5548a9fd305cea108">join_then_stop</a> (const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;deadline)</td></tr>
+<tr class="memdesc:a1750d043ef4d86d5548a9fd305cea108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait until specified deadline, then terminate all jobs in the client.  <a href="#a1750d043ef4d86d5548a9fd305cea108">More...</a><br /></td></tr>
 <tr class="separator:a1750d043ef4d86d5548a9fd305cea108"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeba1a7f96134d320eda0aad9e9fa8827"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#aeba1a7f96134d320eda0aad9e9fa8827">stop</a> (void)</td></tr>
+<tr class="memdesc:aeba1a7f96134d320eda0aad9e9fa8827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kill all request jobs.  <a href="#aeba1a7f96134d320eda0aad9e9fa8827">More...</a><br /></td></tr>
 <tr class="separator:aeba1a7f96134d320eda0aad9e9fa8827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad38888517811d24cb51337a9c0efa4d5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#ad38888517811d24cb51337a9c0efa4d5">get_session_id</a> (void) const</td></tr>
+<tr class="memdesc:ad38888517811d24cb51337a9c0efa4d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return session id.  <a href="#ad38888517811d24cb51337a9c0efa4d5">More...</a><br /></td></tr>
 <tr class="separator:ad38888517811d24cb51337a9c0efa4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structead_1_1i_session"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structead_1_1i_session')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structead_1_1i_session.html">ead::iSession</a></td></tr>
-<tr class="memitem:abdfa7282cbfcaa7c76c79a8c561bbe04 inherit pub_methods_structead_1_1i_session"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structead_1_1i_session.html#abdfa7282cbfcaa7c76c79a8c561bbe04">~iSession</a> (void)=default</td></tr>
-<tr class="separator:abdfa7282cbfcaa7c76c79a8c561bbe04 inherit pub_methods_structead_1_1i_session"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structeteq_1_1i_session"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structeteq_1_1i_session')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structeteq_1_1i_session.html">eteq::iSession</a></td></tr>
+<tr class="memitem:a9081262b7e5ed5122db50551e1154adf inherit pub_methods_structeteq_1_1i_session"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structeteq_1_1i_session.html#a9081262b7e5ed5122db50551e1154adf">~iSession</a> (void)=default</td></tr>
+<tr class="separator:a9081262b7e5ed5122db50551e1154adf inherit pub_methods_structeteq_1_1i_session"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae618f5fb29a0d401b83c8f1bbc4d6384"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; tenncor::GraphEmitter::Stub &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#ae618f5fb29a0d401b83c8f1bbc4d6384">stub_</a></td></tr>
+<tr class="memdesc:ae618f5fb29a0d401b83c8f1bbc4d6384"><td class="mdescLeft">&#160;</td><td class="mdescRight">GRPC Client.  <a href="#ae618f5fb29a0d401b83c8f1bbc4d6384">More...</a><br /></td></tr>
 <tr class="separator:ae618f5fb29a0d401b83c8f1bbc4d6384"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a260ec45d945c43d3d701e338b462e2ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structead_1_1_session.html">ead::Session</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a260ec45d945c43d3d701e338b462e2ad">sess_</a></td></tr>
-<tr class="separator:a260ec45d945c43d3d701e338b462e2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fc0fb683a6840072e9baec0ab323ab4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structeteq_1_1_session.html">eteq::Session</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a0fc0fb683a6840072e9baec0ab323ab4">sess_</a></td></tr>
+<tr class="memdesc:a0fc0fb683a6840072e9baec0ab323ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Session underneath.  <a href="#a0fc0fb683a6840072e9baec0ab323ab4">More...</a><br /></td></tr>
+<tr class="separator:a0fc0fb683a6840072e9baec0ab323ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f5715a68eb3f41223749c1ae8694101"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtag_1_1_tag_registry.html">tag::TagRegistry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a6f5715a68eb3f41223749c1ae8694101">registry_</a></td></tr>
+<tr class="memdesc:a6f5715a68eb3f41223749c1ae8694101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag registry.  <a href="#a6f5715a68eb3f41223749c1ae8694101">More...</a><br /></td></tr>
 <tr class="separator:a6f5715a68eb3f41223749c1ae8694101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ab18efc5b35ec80474398fc95e965fc38"><td class="memItemLeft" align="right" valign="top">static boost::uuids::random_generator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#ab18efc5b35ec80474398fc95e965fc38">uuid_gen_</a></td></tr>
+<tr class="memdesc:ab18efc5b35ec80474398fc95e965fc38"><td class="mdescLeft">&#160;</td><td class="mdescRight">UUID random generator.  <a href="#ab18efc5b35ec80474398fc95e965fc38">More...</a><br /></td></tr>
 <tr class="separator:ab18efc5b35ec80474398fc95e965fc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ac2872b2785f43fb25e0300f68f25d922"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#ac2872b2785f43fb25e0300f68f25d922">sess_id_</a></td></tr>
 <tr class="separator:ac2872b2785f43fb25e0300f68f25d922"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64e75b7fc318fe50c949a84661854d2a"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a64e75b7fc318fe50c949a84661854d2a">node_ids_</a></td></tr>
-<tr class="separator:a64e75b7fc318fe50c949a84661854d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af96dd6abfbd3d36f5df7bff000e3018b"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#af96dd6abfbd3d36f5df7bff000e3018b">node_ids_</a></td></tr>
+<tr class="separator:af96dd6abfbd3d36f5df7bff000e3018b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13dc483479f4b45f3c6f172f638488ce"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; <a class="el" href="structdbg_1_1_edge_info.html">EdgeInfo</a>, <a class="el" href="structdbg_1_1_edge_info_hash.html">EdgeInfoHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a13dc483479f4b45f3c6f172f638488ce">edges_</a></td></tr>
 <tr class="separator:a13dc483479f4b45f3c6f172f638488ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac5619e6a7c0d237cd066669e612f0dc"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#aac5619e6a7c0d237cd066669e612f0dc">update_it_</a> = 0</td></tr>
 <tr class="separator:aac5619e6a7c0d237cd066669e612f0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af959894054e0f96ecc563795e9561792"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdbg_1_1_graph_emitter_client.html">GraphEmitterClient</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#af959894054e0f96ecc563795e9561792">client_</a></td></tr>
 <tr class="separator:af959894054e0f96ecc563795e9561792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22527e67ad25e3d07be20612a23eddde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structteq_1_1_graph_stat.html">teq::GraphStat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#a22527e67ad25e3d07be20612a23eddde">stat_</a></td></tr>
+<tr class="separator:a22527e67ad25e3d07be20612a23eddde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab092647b10abc9e87b555e6970bf5ddf"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *, std::unordered_set&lt; <a class="el" href="structteq_1_1i_operable_func.html">teq::iOperableFunc</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_interactive_session.html#ab092647b10abc9e87b555e6970bf5ddf">parents_</a></td></tr>
+<tr class="separator:ab092647b10abc9e87b555e6970bf5ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Session that makes GRPC client calls. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0f596deccf30ea9fcdb48fc74fd09092"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f596deccf30ea9fcdb48fc74fd09092">&#9670;&nbsp;</a></span>InteractiveSession() <span class="overload">[1/2]</span></h2>
 
@@ -257,6 +278,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return session id. </p>
+
 </div>
 </div>
 <a id="a707c6a647d924b6e82034dc237b5085c"></a>
@@ -282,6 +305,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Wait until client completes its request calls. </p>
 
 </div>
 </div>
@@ -309,6 +334,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Wait until specified deadline, then terminate all jobs in the client. </p>
+
 </div>
 </div>
 <a id="a45e0ff8b099d2a2cbe348bcc7cb61b5e"></a>
@@ -334,6 +361,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Apply input optimization rules using opt module, then re-track. </p>
 
 </div>
 </div>
@@ -361,10 +390,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Kill all request jobs. </p>
+
 </div>
 </div>
-<a id="afe0a26dcce85231ed7b8dff50abf2cb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe0a26dcce85231ed7b8dff50abf2cb4">&#9670;&nbsp;</a></span>track()</h2>
+<a id="af877797c66530baad063a8faeba56a57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af877797c66530baad063a8faeba56a57">&#9670;&nbsp;</a></span>track()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,7 +406,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void dbg::InteractiveSession::track </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceade.html#ab4db19108073a8a4dc5b8cb6aa85ad42">ade::TensT</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceteq.html#aedad6309a6ae3cb41f5554dd13bbecfd">teq::TensptrsT</a>&#160;</td>
           <td class="paramname"><em>roots</em></td><td>)</td>
           <td></td>
         </tr>
@@ -387,12 +418,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="structead_1_1i_session.html#a9eb6d1e722cf3b308bb81ac6a2b16bac">ead::iSession</a>.</p>
+<p>Implementation of iSession. </p>
+
+<p>Implements <a class="el" href="structeteq_1_1i_session.html#a975e910c0bb7c2502a3c6d22767c78d1">eteq::iSession</a>.</p>
 
 </div>
 </div>
-<a id="a551a74148628ba15d384e8f30a525124"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a551a74148628ba15d384e8f30a525124">&#9670;&nbsp;</a></span>update()</h2>
+<a id="af14c59ad1479e239fd44dac7e79a9f7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af14c59ad1479e239fd44dac7e79a9f7c">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,19 +436,9 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void dbg::InteractiveSession::update </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceead.html#aff90e1546478c326db915993e541d4a0">ead::TensSetT</a>&#160;</td>
-          <td class="paramname"><em>updated</em> = <code>{}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="namespaceteq.html#a06d5cc6ba08f690e19ee8cf46d289993">teq::TensSetT</a>&#160;</td>
+          <td class="paramname"><em>ignored</em> = <code>{}</code></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceead.html#aff90e1546478c326db915993e541d4a0">ead::TensSetT</a>&#160;</td>
-          <td class="paramname"><em>ignores</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -424,14 +447,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>update all nodes related to updated, if updated set is empty update all nodes related to the leaves (so everyone) ignore all nodes dependent on ignores including the ignored nodes </p>
 
-<p>Implements <a class="el" href="structead_1_1i_session.html#adc979f16a2d03ea7ec4430519a5c9c7f">ead::iSession</a>.</p>
+<p>Implementation of iSession. </p>
+
+<p>Implements <a class="el" href="structeteq_1_1i_session.html#ace0a47ee5872a15bfc41d88cad75c5f8">eteq::iSession</a>.</p>
 
 </div>
 </div>
-<a id="ade870427e4e82657e932cd12b9a1608b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade870427e4e82657e932cd12b9a1608b">&#9670;&nbsp;</a></span>update_target()</h2>
+<a id="a100b0e2ba9eec4884f3ea358237e14bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a100b0e2ba9eec4884f3ea358237e14bf">&#9670;&nbsp;</a></span>update_target()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,14 +466,14 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void dbg::InteractiveSession::update_target </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceead.html#aff90e1546478c326db915993e541d4a0">ead::TensSetT</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceteq.html#a06d5cc6ba08f690e19ee8cf46d289993">teq::TensSetT</a>&#160;</td>
           <td class="paramname"><em>targeted</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceead.html#aff90e1546478c326db915993e541d4a0">ead::TensSetT</a>&#160;</td>
-          <td class="paramname"><em>updated</em> = <code>{}</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceteq.html#a06d5cc6ba08f690e19ee8cf46d289993">teq::TensSetT</a>&#160;</td>
+          <td class="paramname"><em>ignored</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -464,7 +488,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="structead_1_1i_session.html#a569a7bf347f81dad30b9f645a247ebe1">ead::iSession</a>.</p>
+<p>Implementation of iSession. </p>
+
+<p>Implements <a class="el" href="structeteq_1_1i_session.html#a522c34e62f4661e4afb6459c5abb291d">eteq::iSession</a>.</p>
 
 </div>
 </div>
@@ -513,8 +539,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a64e75b7fc318fe50c949a84661854d2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64e75b7fc318fe50c949a84661854d2a">&#9670;&nbsp;</a></span>node_ids_</h2>
+<a id="af96dd6abfbd3d36f5df7bff000e3018b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af96dd6abfbd3d36f5df7bff000e3018b">&#9670;&nbsp;</a></span>node_ids_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -523,7 +549,29 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a>*,size_t&gt; dbg::InteractiveSession::node_ids_</td>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a>*,size_t&gt; dbg::InteractiveSession::node_ids_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab092647b10abc9e87b555e6970bf5ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab092647b10abc9e87b555e6970bf5ddf">&#9670;&nbsp;</a></span>parents_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a>*, std::unordered_set&lt;<a class="el" href="structteq_1_1i_operable_func.html">teq::iOperableFunc</a>*&gt; &gt; dbg::InteractiveSession::parents_</td>
         </tr>
       </table>
   </td>
@@ -547,19 +595,23 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Tag registry. </p>
+
 </div>
 </div>
-<a id="a260ec45d945c43d3d701e338b462e2ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a260ec45d945c43d3d701e338b462e2ad">&#9670;&nbsp;</a></span>sess_</h2>
+<a id="a0fc0fb683a6840072e9baec0ab323ab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc0fb683a6840072e9baec0ab323ab4">&#9670;&nbsp;</a></span>sess_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structead_1_1_session.html">ead::Session</a> dbg::InteractiveSession::sess_</td>
+          <td class="memname"><a class="el" href="structeteq_1_1_session.html">eteq::Session</a> dbg::InteractiveSession::sess_</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Session underneath. </p>
 
 </div>
 </div>
@@ -582,7 +634,29 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="namespaceade.html#adf0ae4c17a6835d771a3e8e1502f9ad6">boost::uuids::to_string</a>(</div><div class="line">        <a class="code" href="structdbg_1_1_interactive_session.html#ab18efc5b35ec80474398fc95e965fc38">InteractiveSession::uuid_gen_</a>())</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="namespaceopt.html#af168683f3584aecdbe3c0ecec51354d0">boost::uuids::to_string</a>(</div><div class="line">        <a class="code" href="structdbg_1_1_interactive_session.html#ab18efc5b35ec80474398fc95e965fc38">InteractiveSession::uuid_gen_</a>())</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a22527e67ad25e3d07be20612a23eddde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22527e67ad25e3d07be20612a23eddde">&#9670;&nbsp;</a></span>stat_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structteq_1_1_graph_stat.html">teq::GraphStat</a> dbg::InteractiveSession::stat_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="ae618f5fb29a0d401b83c8f1bbc4d6384"></a>
@@ -596,6 +670,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>GRPC Client. </p>
 
 </div>
 </div>
@@ -640,6 +716,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>UUID random generator. </p>
 
 </div>
 </div>

@@ -1,3 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structtag_1_1_tens_key_hash.html" title="tag::TensKeyHash" alt="" coords="5,5,135,31"/>
+<area shape="rect" id="node1" href="$structteq_1_1i_data.html" title="Interface for unveiling data. " alt="" coords="11,80,90,105"/>
+<area shape="rect" id="node2" href="$structteq_1_1i_leaf.html" title="Leaf of the graph commonly representing the variable in an equation. " alt="" coords="153,104,229,129"/>
+<area shape="rect" id="node6" href="$structteq_1_1i_operable_func.html" title="A functor node with direct access to evaluated data. " alt="" coords="287,55,422,80"/>
+<area shape="rect" id="node3" href="$structeteq_1_1i_leaf.html" title="iLeaf extension of TEQ iLeaf containing Eigen data objects " alt="" coords="297,104,412,129"/>
+<area shape="rect" id="node4" href="$structeteq_1_1_constant.html" title="Constant implementation of Eigen leaf tensor. " alt="" coords="487,104,626,129"/>
+<area shape="rect" id="node5" href="$structeteq_1_1_variable.html" title="Leaf node implementation containing mutable Eigen data. " alt="" coords="490,153,623,179"/>
+<area shape="rect" id="node7" href="$structdbg_1_1_custom_functor.html" title="Functor that runs a custom functor instead of Eigen operators. " alt="" coords="470,5,643,31"/>
+<area shape="rect" id="node8" href="$structeteq_1_1_functor.html" title="Functor implementation of operable functor of Eigen operators. " alt="" coords="491,55,621,80"/>
+<area shape="rect" id="node9" href="$structteq_1_1i_tensor.html" title="Interface of traversible and differentiable nodes with shape information. " alt="" coords="5,129,96,155"/>
+<area shape="rect" id="node10" href="$structteq_1_1i_functor.html" title="Interface of iOperation&#45;defined operation node. " alt="" coords="144,153,239,179"/>
+<area shape="rect" id="node11" href="$structteq_1_1_functor.html" title="Functor of the graph mapping to operators specified by opcode argument. " alt="" coords="308,153,401,179"/>
 </map>

@@ -1,11 +1,15 @@
 <map id="opt/optimize.hpp" name="opt/optimize.hpp">
-<area shape="rect" id="node2" href="$ead_2session_8hpp.html" title="ead/session.hpp" alt="" coords="275,79,393,104"/>
-<area shape="rect" id="node8" href="$opt_2parse_8hpp.html" title="opt/parse.hpp" alt="" coords="148,79,251,104"/>
-<area shape="rect" id="node10" href="$optimize_8cpp.html" title="opt/src/optimize.cpp" alt="" coords="417,79,557,104"/>
-<area shape="rect" id="node3" href="$dbg_2grpc_2session_8hpp.html" title="dbg/grpc/session.hpp" alt="" coords="385,225,533,251"/>
-<area shape="rect" id="node5" href="$ead_8hpp.html" title="ead/ead.hpp" alt="" coords="286,152,382,177"/>
-<area shape="rect" id="node7" href="$ead_8cpp.html" title="ead/python/ead.cpp" alt="" coords="106,299,244,324"/>
-<area shape="rect" id="node4" href="$grpc_8cpp.html" title="dbg/python/grpc.cpp" alt="" coords="276,299,418,324"/>
-<area shape="rect" id="node6" href="$ead_2parse_8hpp.html" title="ead/parse.hpp" alt="" coords="203,225,310,251"/>
-<area shape="rect" id="node9" href="$parse_8cpp.html" title="opt/src/parse.cpp" alt="" coords="5,152,129,177"/>
+<area shape="rect" id="node2" href="$opt_2parse_8hpp.html" title="opt/parse.hpp" alt="" coords="165,79,268,104"/>
+<area shape="rect" id="node8" href="$eteq_2session_8hpp.html" title="eteq/session.hpp" alt="" coords="339,79,462,104"/>
+<area shape="rect" id="node14" href="$optimize_8cpp.html" title="opt/src/optimize.cpp" alt="" coords="485,79,625,104"/>
+<area shape="rect" id="node3" href="$eteq_2parse_8hpp.html" title="eteq/parse.hpp" alt="" coords="237,225,348,251"/>
+<area shape="rect" id="node7" href="$parse_8cpp.html" title="opt/src/parse.cpp" alt="" coords="5,152,129,177"/>
+<area shape="rect" id="node4" href="$ccur_8cpp.html" title="ccur/python/ccur.cpp" alt="" coords="383,299,527,324"/>
+<area shape="rect" id="node5" href="$grpc_8cpp.html" title="dbg/python/grpc.cpp" alt="" coords="129,299,272,324"/>
+<area shape="rect" id="node6" href="$eteq_2python_2eteq_8cpp.html" title="eteq/python/eteq.cpp" alt="" coords="596,299,741,324"/>
+<area shape="rect" id="node9" href="$eteq_8hpp.html" title="eteq/eteq.hpp" alt="" coords="254,152,357,177"/>
+<area shape="rect" id="node10" href="$ccur_2session_8hpp.html" title="ccur/session.hpp" alt="" coords="553,225,674,251"/>
+<area shape="rect" id="node11" href="$dbg_2grpc_2session_8hpp.html" title="dbg/grpc/session.hpp" alt="" coords="14,225,163,251"/>
+<area shape="rect" id="node12" href="$err__approx_8hpp.html" title="layr/err_approx.hpp" alt="" coords="381,152,518,177"/>
+<area shape="rect" id="node13" href="$err__approx_8cpp.html" title="layr/src/err_approx.cpp" alt="" coords="371,225,529,251"/>
 </map>

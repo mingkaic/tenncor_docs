@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rulescontext',['RulesContext',['../structopt_1_1_rules_context.html',1,'opt']]]
+  ['query',['Query',['../structtag_1_1_query.html',1,'tag']]]
 ];

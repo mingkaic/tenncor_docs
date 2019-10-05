@@ -1,21 +1,16 @@
 <map id="opt/voter.hpp" name="opt/voter.hpp">
-<area shape="rect" id="node2" href="$ivoter_8hpp.html" title="opt/ivoter.hpp" alt="" coords="297,79,398,104"/>
-<area shape="rect" id="node3" href="$def_8h.html" title="opt/parse/def.h" alt="" coords="135,152,246,177"/>
-<area shape="rect" id="node8" href="$stats_8hpp.html" title="opt/stats.hpp" alt="" coords="299,152,397,177"/>
-<area shape="rect" id="node37" href="$candidate_8hpp.html" title="opt/candidate.hpp" alt="" coords="656,592,783,617"/>
-<area shape="rect" id="node5" href="$list_8h.html" title="opt/parse/list.h" alt="" coords="28,225,136,251"/>
-<area shape="rect" id="node9" href="$ade_2ade_8hpp.html" title="ade/ade.hpp" alt="" coords="331,372,426,397"/>
-<area shape="rect" id="node33" href="$prop_8hpp.html" title="tag/prop.hpp" alt="" coords="245,225,341,251"/>
-<area shape="rect" id="node10" href="$ade_2functor_8hpp.html" title="ade/functor.hpp" alt="" coords="114,445,227,471"/>
-<area shape="rect" id="node25" href="$traveler_8hpp.html" title="ade/traveler.hpp" alt="" coords="391,445,508,471"/>
-<area shape="rect" id="node32" href="$iopfunc_8hpp.html" title="ade/iopfunc.hpp" alt="" coords="251,445,367,471"/>
-<area shape="rect" id="node11" href="$ifunctor_8hpp.html" title="ade/ifunctor.hpp" alt="" coords="134,519,250,544"/>
-<area shape="rect" id="node12" href="$ade_2funcarg_8hpp.html" title="ade/funcarg.hpp" alt="" coords="284,592,401,617"/>
-<area shape="rect" id="node13" href="$itensor_8hpp.html" title="ade/itensor.hpp" alt="" coords="502,665,615,691"/>
-<area shape="rect" id="node20" href="$ade_2coord_8hpp.html" title="ade/coord.hpp" alt="" coords="289,665,396,691"/>
-<area shape="rect" id="node14" href="$shape_8hpp.html" title="ade/shape.hpp" alt="" coords="462,812,572,837"/>
-<area shape="rect" id="node22" href="$matops_8hpp.html" title="ade/matops.hpp" alt="" coords="284,739,401,764"/>
-<area shape="rect" id="node28" href="$ade_2ileaf_8hpp.html" title="ade/ileaf.hpp" alt="" coords="584,519,682,544"/>
-<area shape="rect" id="node29" href="$idata_8hpp.html" title="ade/idata.hpp" alt="" coords="479,592,582,617"/>
-<area shape="rect" id="node34" href="$tag_8hpp.html" title="tag/tag.hpp" alt="" coords="246,299,334,324"/>
+<area shape="rect" id="node2" href="$ivoter_8hpp.html" title="opt/ivoter.hpp" alt="" coords="392,79,493,104"/>
+<area shape="rect" id="node3" href="$def_8h.html" title="opt/parse/def.h" alt="" coords="236,152,346,177"/>
+<area shape="rect" id="node8" href="$stats_8hpp.html" title="opt/stats.hpp" alt="" coords="394,152,492,177"/>
+<area shape="rect" id="node25" href="$candidate_8hpp.html" title="opt/candidate.hpp" alt="" coords="686,152,813,177"/>
+<area shape="rect" id="node5" href="$list_8h.html" title="opt/parse/list.h" alt="" coords="237,225,345,251"/>
+<area shape="rect" id="node9" href="$teq_2teq_8hpp.html" title="teq/teq.hpp" alt="" coords="332,372,420,397"/>
+<area shape="rect" id="node21" href="$prop_8hpp.html" title="tag/prop.hpp" alt="" coords="420,225,516,251"/>
+<area shape="rect" id="node11" href="$traveler_8hpp.html" title="teq/traveler.hpp" alt="" coords="255,445,369,471"/>
+<area shape="rect" id="node17" href="$iopfunc_8hpp.html" title="teq/iopfunc.hpp" alt="" coords="393,445,506,471"/>
+<area shape="rect" id="node15" href="$ifunctor_8hpp.html" title="teq/ifunctor.hpp" alt="" coords="382,519,495,544"/>
+<area shape="rect" id="node18" href="$idata_8hpp.html" title="teq/idata.hpp" alt="" coords="519,519,617,544"/>
+<area shape="rect" id="node22" href="$tag_8hpp.html" title="tag/tag.hpp" alt="" coords="424,299,512,324"/>
+<area shape="rect" id="node28" href="$itensor_8hpp.html" title="teq/itensor.hpp" alt="" coords="1028,225,1137,251"/>
+<area shape="rect" id="node30" href="$shape_8hpp.html" title="teq/shape.hpp" alt="" coords="1095,299,1201,324"/>
 </map>

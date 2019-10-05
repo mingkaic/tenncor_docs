@@ -4,5 +4,7 @@ var searchData=
   ['dbg_5fwrapper_2epy',['dbg_wrapper.py',['../dbg__wrapper_8py.html',1,'']]],
   ['def_2ec',['def.c',['../def_8c.html',1,'']]],
   ['def_2eh',['def.h',['../def_8h.html',1,'']]],
+  ['dense_2ecpp',['dense.cpp',['../dense_8cpp.html',1,'']]],
+  ['dense_2ehpp',['dense.hpp',['../dense_8hpp.html',1,'']]],
   ['dtypes_2epy',['dtypes.py',['../dtypes_8py.html',1,'']]]
 ];

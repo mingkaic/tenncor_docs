@@ -1,0 +1,7 @@
+<map id="layr::iLayerBuilder" name="layr::iLayerBuilder">
+<area shape="rect" id="node2" href="$structlayr_1_1_conv_builder.html" title="Builder implementation for convolution layer. " alt="" coords="196,5,319,31"/>
+<area shape="rect" id="node3" href="$structlayr_1_1_dense_builder.html" title="Builder implementation for fully connected layer. " alt="" coords="192,55,322,80"/>
+<area shape="rect" id="node4" href="$structlayr_1_1_r_b_m_builder.html" title="Builder implementation for restricted boltzmann layer. " alt="" coords="197,104,318,129"/>
+<area shape="rect" id="node5" href="$structlayr_1_1_seq_model_builder.html" title="Builder implementation for sequentially connected models. " alt="" coords="181,153,333,179"/>
+<area shape="rect" id="node6" href="$structlayr_1_1_u_layer_builder.html" title="Builder implementation for activation layer. " alt="" coords="190,203,325,228"/>
+</map>

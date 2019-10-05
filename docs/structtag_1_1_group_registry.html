@@ -80,7 +80,7 @@ Collaboration diagram for tag::GroupRegistry:</div>
 <div class="dyncontent">
 <div class="center"><img src="structtag_1_1_group_registry__coll__graph.png" border="0" usemap="#tag_1_1_group_registry_coll__map" alt="Collaboration graph"/></div>
 <map name="tag_1_1_group_registry_coll__map" id="tag_1_1_group_registry_coll__map">
-<area shape="rect" id="node2" href="structtag_1_1_tag_registry.html" title="tag::TagRegistry" alt="" coords="13,5,131,31"/>
+<area shape="rect" id="node2" href="structtag_1_1_tag_registry.html" title="Registry for associating tensors to tag collectives. " alt="" coords="13,5,131,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -88,17 +88,22 @@ Collaboration diagram for tag::GroupRegistry:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ff8741125edf33227400a80fbdddcd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_group_registry.html#a5ff8741125edf33227400a80fbdddcd8">GroupRegistry</a> (<a class="el" href="structtag_1_1_tag_registry.html">TagRegistry</a> &amp;registry=<a class="el" href="namespacetag.html#ad59098e3480c1d395b4b72098a6c0ab7">get_reg</a>())</td></tr>
 <tr class="separator:a5ff8741125edf33227400a80fbdddcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdde050d51d5c2e03ca47778e0af1779"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_group_registry.html#afdde050d51d5c2e03ca47778e0af1779">group_tag</a> (<a class="el" href="namespaceade.html#a0cd5d0a139b258e530ac3140bc7ccbb1">ade::TensrefT</a> tens, std::string tag)</td></tr>
-<tr class="separator:afdde050d51d5c2e03ca47778e0af1779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac93e9b2e86e80629a0fdc6d0a1bf4997"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_group_registry.html#ac93e9b2e86e80629a0fdc6d0a1bf4997">group_tag</a> (<a class="el" href="namespaceteq.html#a1ede4d960abd0ae4d3e7f350e2e43232">teq::TensrefT</a> tens, std::string tag)</td></tr>
+<tr class="memdesc:ac93e9b2e86e80629a0fdc6d0a1bf4997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bidirectionally assocate tensor and group.  <a href="#ac93e9b2e86e80629a0fdc6d0a1bf4997">More...</a><br /></td></tr>
+<tr class="separator:ac93e9b2e86e80629a0fdc6d0a1bf4997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2b24b3ab82c5ba9fd5f955c8b005b627"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, <a class="el" href="namespacetag.html#addf439ead4f6f407bc96336c93f7567c">TensSetT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_group_registry.html#a2b24b3ab82c5ba9fd5f955c8b005b627">groups_</a></td></tr>
+<tr class="memdesc:a2b24b3ab82c5ba9fd5f955c8b005b627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map group label to tensors.  <a href="#a2b24b3ab82c5ba9fd5f955c8b005b627">More...</a><br /></td></tr>
 <tr class="separator:a2b24b3ab82c5ba9fd5f955c8b005b627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac50eae63eb1cd6b49080477a5fcf2d0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtag_1_1_tag_registry.html">TagRegistry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_group_registry.html#ac50eae63eb1cd6b49080477a5fcf2d0b">tag_reg_</a></td></tr>
+<tr class="memdesc:ac50eae63eb1cd6b49080477a5fcf2d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal tag registry used to retrieve tensor-group association.  <a href="#ac50eae63eb1cd6b49080477a5fcf2d0b">More...</a><br /></td></tr>
 <tr class="separator:ac50eae63eb1cd6b49080477a5fcf2d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="structtag_1_1_tag_registry.html" title="Registry for associating tensors to tag collectives. ">TagRegistry</a> wrapper to tag tensors groups and store reverse group-tensor association </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5ff8741125edf33227400a80fbdddcd8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ff8741125edf33227400a80fbdddcd8">&#9670;&nbsp;</a></span>GroupRegistry()</h2>
 
@@ -126,8 +131,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afdde050d51d5c2e03ca47778e0af1779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdde050d51d5c2e03ca47778e0af1779">&#9670;&nbsp;</a></span>group_tag()</h2>
+<a id="ac93e9b2e86e80629a0fdc6d0a1bf4997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac93e9b2e86e80629a0fdc6d0a1bf4997">&#9670;&nbsp;</a></span>group_tag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,7 +143,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void tag::GroupRegistry::group_tag </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceade.html#a0cd5d0a139b258e530ac3140bc7ccbb1">ade::TensrefT</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceteq.html#a1ede4d960abd0ae4d3e7f350e2e43232">teq::TensrefT</a>&#160;</td>
           <td class="paramname"><em>tens</em>, </td>
         </tr>
         <tr>
@@ -160,6 +165,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Bidirectionally assocate tensor and group. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -175,6 +182,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Map group label to tensors. </p>
+
 </div>
 </div>
 <a id="ac50eae63eb1cd6b49080477a5fcf2d0b"></a>
@@ -188,6 +197,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Internal tag registry used to retrieve tensor-group association. </p>
 
 </div>
 </div>

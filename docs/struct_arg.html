@@ -69,31 +69,39 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Argument for a branching node.  
+ <a href="struct_arg.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="def_8h_source.html">def.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Arg:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_arg__coll__graph.png" border="0" usemap="#_arg_coll__map" alt="Collaboration graph"/></div>
 <map name="_arg_coll__map" id="_arg_coll__map">
-<area shape="rect" id="node2" href="struct_subgraph.html" title="Subgraph" alt="" coords="5,292,84,317"/>
-<area shape="rect" id="node3" href="struct_branch.html" title="Branch" alt="" coords="13,192,77,217"/>
-<area shape="rect" id="node4" href="struct_ptr_list.html" title="PtrList" alt="" coords="15,105,74,131"/>
-<area shape="rect" id="node5" href="struct_ptr_node.html" title="PtrNode" alt="" coords="10,5,80,31"/>
-<area shape="rect" id="node6" href="struct_num_list.html" title="NumList" alt="" coords="108,292,179,317"/>
-<area shape="rect" id="node7" href="struct_num_node.html" title="NumNode" alt="" coords="103,192,184,217"/>
+<area shape="rect" id="node2" href="struct_subgraph.html" title="Rule tree node. " alt="" coords="5,292,84,317"/>
+<area shape="rect" id="node3" href="struct_branch.html" title="Branching (Functor or Group) node. " alt="" coords="13,192,77,217"/>
+<area shape="rect" id="node4" href="struct_ptr_list.html" title="Pointer linked list. " alt="" coords="15,105,74,131"/>
+<area shape="rect" id="node5" href="struct_ptr_node.html" title="Node of a pointer linked list. " alt="" coords="10,5,80,31"/>
+<area shape="rect" id="node6" href="struct_num_list.html" title="Decimal linked list. " alt="" coords="108,292,179,317"/>
+<area shape="rect" id="node7" href="struct_num_node.html" title="Node of a decimal linked list. " alt="" coords="103,192,184,217"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a9ec966245875382456e3963bbf832431"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="struct_subgraph.html">Subgraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_arg.html#a9ec966245875382456e3963bbf832431">subgraph_</a></td></tr>
+<tr class="memdesc:a9ec966245875382456e3963bbf832431"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_subgraph.html" title="Rule tree node. ">Subgraph</a> node.  <a href="#a9ec966245875382456e3963bbf832431">More...</a><br /></td></tr>
 <tr class="separator:a9ec966245875382456e3963bbf832431"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae44ba002042e3fdd5cccb8b6711d596"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="struct_num_list.html">NumList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_arg.html#aae44ba002042e3fdd5cccb8b6711d596">shaper_</a></td></tr>
+<tr class="memdesc:aae44ba002042e3fdd5cccb8b6711d596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shape mapping meta-data.  <a href="#aae44ba002042e3fdd5cccb8b6711d596">More...</a><br /></td></tr>
 <tr class="separator:aae44ba002042e3fdd5cccb8b6711d596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5e011bc5dd2c97ccfa6f70426b61718"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="struct_num_list.html">NumList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_arg.html#ab5e011bc5dd2c97ccfa6f70426b61718">coorder_</a></td></tr>
+<tr class="memdesc:ab5e011bc5dd2c97ccfa6f70426b61718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinate mapping meta-data.  <a href="#ab5e011bc5dd2c97ccfa6f70426b61718">More...</a><br /></td></tr>
 <tr class="separator:ab5e011bc5dd2c97ccfa6f70426b61718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Argument for a branching node. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="ab5e011bc5dd2c97ccfa6f70426b61718"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5e011bc5dd2c97ccfa6f70426b61718">&#9670;&nbsp;</a></span>coorder_</h2>
 
@@ -105,6 +113,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Coordinate mapping meta-data. </p>
 
 </div>
 </div>
@@ -120,6 +130,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Shape mapping meta-data. </p>
+
 </div>
 </div>
 <a id="a9ec966245875382456e3963bbf832431"></a>
@@ -133,6 +145,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="struct_subgraph.html" title="Rule tree node. ">Subgraph</a> node. </p>
 
 </div>
 </div>

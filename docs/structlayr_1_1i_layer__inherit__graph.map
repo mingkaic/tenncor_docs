@@ -1,0 +1,7 @@
+<map id="layr::iLayer" name="layr::iLayer">
+<area shape="rect" id="node2" href="$structlayr_1_1_conv.html" title="Layer implementation to apply conv2d functions to weight and optional bias. " alt="" coords="5,79,87,104"/>
+<area shape="rect" id="node3" href="$structlayr_1_1_dense.html" title="Layer implementation to apply fully_connect functions to weight and optional bias. " alt="" coords="111,79,200,104"/>
+<area shape="rect" id="node4" href="$structlayr_1_1_r_b_m.html" title="layr::RBM" alt="" coords="223,79,303,104"/>
+<area shape="rect" id="node5" href="$structlayr_1_1_sequential_model.html" title="Layer implementation that sequentially applies sublayers. " alt="" coords="327,79,477,104"/>
+<area shape="rect" id="node6" href="$structlayr_1_1_u_layer.html" title="Layer implementation to apply activation and pooling functions. " alt="" coords="501,79,594,104"/>
+</map>

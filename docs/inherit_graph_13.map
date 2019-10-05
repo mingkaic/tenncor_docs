@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_c_s_v_equation_1_1_node.html" title="CSVEquation::Node" alt="" coords="5,5,146,31"/>
+<area shape="rect" id="node1" href="$structeteq_1_1i_eigen.html" title="Interface of generic Eigen data wrapper. " alt="" coords="5,44,128,69"/>
+<area shape="rect" id="node2" href="$structeteq_1_1_eigen_mat_op.html" title="Implementation of iEigen that assigns Matrix operator to Matrix object. " alt="" coords="183,5,364,44"/>
+<area shape="rect" id="node3" href="$structeteq_1_1_eigen_tens_op.html" title="Implementation of iEigen that assigns Tensor operator to Tensor object. " alt="" coords="176,68,371,107"/>
 </map>

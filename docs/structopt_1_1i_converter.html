@@ -73,16 +73,19 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Converter interface for building TEQ graphs.  
+ <a href="structopt_1_1i_converter.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="iconverter_8hpp_source.html">iconverter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for opt::iConverter:</div>
 <div class="dyncontent">
 <div class="center"><img src="structopt_1_1i_converter__inherit__graph.png" border="0" usemap="#opt_1_1i_converter_inherit__map" alt="Inheritance graph"/></div>
 <map name="opt_1_1i_converter_inherit__map" id="opt_1_1i_converter_inherit__map">
-<area shape="rect" id="node2" href="structead_1_1_any_convr.html" title="ead::AnyConvr\&lt; T \&gt;" alt="" coords="5,79,146,104"/>
-<area shape="rect" id="node3" href="structead_1_1_func_convr.html" title="ead::FuncConvr\&lt; T \&gt;" alt="" coords="170,79,317,104"/>
-<area shape="rect" id="node4" href="structead_1_1_group_convr.html" title="ead::GroupConvr\&lt; T \&gt;" alt="" coords="341,79,495,104"/>
-<area shape="rect" id="node5" href="structead_1_1_scalar_convr.html" title="ead::ScalarConvr\&lt; T \&gt;" alt="" coords="519,79,674,104"/>
+<area shape="rect" id="node2" href="structeteq_1_1_any_convr.html" title="Implementation of optimization converter that represents any node. " alt="" coords="170,5,313,31"/>
+<area shape="rect" id="node3" href="structeteq_1_1_func_convr.html" title="Implementation of optimization converter that represents and builds functors. " alt="" coords="166,55,317,80"/>
+<area shape="rect" id="node4" href="structeteq_1_1_group_convr.html" title="Implementation of optimization converter that represents and builds subgraphs of specific types..." alt="" coords="162,104,320,129"/>
+<area shape="rect" id="node5" href="structeteq_1_1_scalar_convr.html" title="Implementation of optimization converter that represents and builds scalar constants. " alt="" coords="162,153,321,179"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -90,12 +93,14 @@ Inheritance diagram for opt::iConverter:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a934a4aeecbfa33329ded300d48edcc90"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter.html#a934a4aeecbfa33329ded300d48edcc90">~iConverter</a> (void)=default</td></tr>
 <tr class="separator:a934a4aeecbfa33329ded300d48edcc90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aed636cb3dfb28d30cef31362696d32"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceade.html#aceac6eb9293c8b2001737f3b26667993">ade::TensptrT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter.html#a4aed636cb3dfb28d30cef31362696d32">build</a> (const <a class="el" href="namespaceopt.html#aad2b7aa7d628257aa90d3c00252fadb7">ContexT</a> &amp;ctx, <a class="el" href="structade_1_1_shape.html">ade::Shape</a> outshape) const =0</td></tr>
-<tr class="separator:a4aed636cb3dfb28d30cef31362696d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d97de9ca351e9aa26f4f4e7a61ef81c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceteq.html#ac6fa10743961a35c5b0f38da4e86e4ae">teq::TensptrT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter.html#a0d97de9ca351e9aa26f4f4e7a61ef81c">build</a> (const <a class="el" href="namespaceopt.html#aad2b7aa7d628257aa90d3c00252fadb7">ContexT</a> &amp;ctx, <a class="el" href="structteq_1_1_shape.html">teq::Shape</a> outshape) const =0</td></tr>
+<tr class="separator:a0d97de9ca351e9aa26f4f4e7a61ef81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4afeaa790ebe8ec50ee3353a6aa99b1e"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1i_converter.html#a4afeaa790ebe8ec50ee3353a6aa99b1e">to_string</a> (void) const =0</td></tr>
 <tr class="separator:a4afeaa790ebe8ec50ee3353a6aa99b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Converter interface for building TEQ graphs. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a934a4aeecbfa33329ded300d48edcc90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a934a4aeecbfa33329ded300d48edcc90">&#9670;&nbsp;</a></span>~iConverter()</h2>
 
@@ -123,8 +128,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4aed636cb3dfb28d30cef31362696d32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4aed636cb3dfb28d30cef31362696d32">&#9670;&nbsp;</a></span>build()</h2>
+<a id="a0d97de9ca351e9aa26f4f4e7a61ef81c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d97de9ca351e9aa26f4f4e7a61ef81c">&#9670;&nbsp;</a></span>build()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,7 +138,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceade.html#aceac6eb9293c8b2001737f3b26667993">ade::TensptrT</a> opt::iConverter::build </td>
+          <td class="memname">virtual <a class="el" href="namespaceteq.html#ac6fa10743961a35c5b0f38da4e86e4ae">teq::TensptrT</a> opt::iConverter::build </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceopt.html#aad2b7aa7d628257aa90d3c00252fadb7">ContexT</a> &amp;&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -141,7 +146,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structade_1_1_shape.html">ade::Shape</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structteq_1_1_shape.html">teq::Shape</a>&#160;</td>
           <td class="paramname"><em>outshape</em>&#160;</td>
         </tr>
         <tr>
@@ -156,8 +161,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Return converted TEQ graph root given candidate context and expected output shape </p>
 
-<p>Implemented in <a class="el" href="structead_1_1_group_convr.html#ad9c7797af4e7e29082bc263cbed896e4">ead::GroupConvr&lt; T &gt;</a>, <a class="el" href="structead_1_1_func_convr.html#a262bafe2c53db304d5b305db4d581882">ead::FuncConvr&lt; T &gt;</a>, <a class="el" href="structead_1_1_any_convr.html#a34e6c2a470aaa4542858f6d898eb5d06">ead::AnyConvr&lt; T &gt;</a>, and <a class="el" href="structead_1_1_scalar_convr.html#ac09b032c4e0723d7efa7ae18ea8a8838">ead::ScalarConvr&lt; T &gt;</a>.</p>
+<p>Implemented in <a class="el" href="structeteq_1_1_group_convr.html#a9f414a14d1f741a32e7df0f2b610990d">eteq::GroupConvr&lt; T &gt;</a>, <a class="el" href="structeteq_1_1_func_convr.html#ab83f82b2a4cf3f615e215100de762279">eteq::FuncConvr&lt; T &gt;</a>, <a class="el" href="structeteq_1_1_any_convr.html#af50991f60e3609f63d37d59b4bf817cd">eteq::AnyConvr&lt; T &gt;</a>, and <a class="el" href="structeteq_1_1_scalar_convr.html#a5581f93cb59546b98ef4e5f3d8010783">eteq::ScalarConvr&lt; T &gt;</a>.</p>
 
 </div>
 </div>
@@ -185,7 +191,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structead_1_1_group_convr.html#a16b3be6544c2b868cea4a90ee89212e5">ead::GroupConvr&lt; T &gt;</a>, <a class="el" href="structead_1_1_func_convr.html#a53a70b1a9f3113c70f3c7b57302247e7">ead::FuncConvr&lt; T &gt;</a>, <a class="el" href="structead_1_1_any_convr.html#a2cf04fdc9cd89c61bd7bcf486dd4a0ba">ead::AnyConvr&lt; T &gt;</a>, and <a class="el" href="structead_1_1_scalar_convr.html#a28ea281f57278c1f20dbf96e8325b8f7">ead::ScalarConvr&lt; T &gt;</a>.</p>
+<p>Implemented in <a class="el" href="structeteq_1_1_group_convr.html#a24759d8e992ca2d83db173221047fe3f">eteq::GroupConvr&lt; T &gt;</a>, <a class="el" href="structeteq_1_1_func_convr.html#a4477c4c5a45c79450d4c081752a8a190">eteq::FuncConvr&lt; T &gt;</a>, <a class="el" href="structeteq_1_1_any_convr.html#a021cc58bae51f9314a5ba13d7672802e">eteq::AnyConvr&lt; T &gt;</a>, and <a class="el" href="structeteq_1_1_scalar_convr.html#a6e2dc0cdf91d7d97ac033a5b7e938e05">eteq::ScalarConvr&lt; T &gt;</a>.</p>
 
 </div>
 </div>

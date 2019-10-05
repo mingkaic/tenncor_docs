@@ -80,7 +80,7 @@ Inheritance diagram for opt::Matcher:</div>
 <div class="dyncontent">
 <div class="center"><img src="structopt_1_1_matcher__inherit__graph.png" border="0" usemap="#opt_1_1_matcher_inherit__map" alt="Inheritance graph"/></div>
 <map name="opt_1_1_matcher_inherit__map" id="opt_1_1_matcher_inherit__map">
-<area shape="rect" id="node2" href="structade_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="5,5,108,31"/>
+<area shape="rect" id="node2" href="structteq_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="5,5,104,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -88,8 +88,8 @@ Collaboration diagram for opt::Matcher:</div>
 <div class="dyncontent">
 <div class="center"><img src="structopt_1_1_matcher__coll__graph.png" border="0" usemap="#opt_1_1_matcher_coll__map" alt="Collaboration graph"/></div>
 <map name="opt_1_1_matcher_coll__map" id="opt_1_1_matcher_coll__map">
-<area shape="rect" id="node2" href="structade_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="5,5,108,31"/>
-<area shape="rect" id="node3" href="structopt_1_1_voter_pool.html" title="opt::VoterPool" alt="" coords="132,5,237,31"/>
+<area shape="rect" id="node2" href="structteq_1_1i_traveler.html" title="Interface to travel through graph, treating iLeaf and iFunctor differently. " alt="" coords="5,5,104,31"/>
+<area shape="rect" id="node3" href="structopt_1_1_voter_pool.html" title="Parsed representation of a rule tree. " alt="" coords="127,5,233,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -99,28 +99,48 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6bdc2c485a11948c7ea1ce099fd62f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae78a780af2bea144b6e6213d60b7f121"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#ae78a780af2bea144b6e6213d60b7f121">Matcher</a> (const <a class="el" href="structopt_1_1_voter_pool.html">VoterPool</a> &amp;voters)</td></tr>
 <tr class="separator:ae78a780af2bea144b6e6213d60b7f121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56afdc8fa0e990fd73f28121420d8239"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#a56afdc8fa0e990fd73f28121420d8239">visit</a> (<a class="el" href="structade_1_1i_leaf.html">ade::iLeaf</a> *leaf) override</td></tr>
-<tr class="memdesc:a56afdc8fa0e990fd73f28121420d8239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of iTraveler.  <a href="#a56afdc8fa0e990fd73f28121420d8239">More...</a><br /></td></tr>
-<tr class="separator:a56afdc8fa0e990fd73f28121420d8239"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8d492d2aeb88ead7c6d8bd7f5b2ed32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#aa8d492d2aeb88ead7c6d8bd7f5b2ed32">visit</a> (<a class="el" href="structade_1_1i_functor.html">ade::iFunctor</a> *func) override</td></tr>
-<tr class="memdesc:aa8d492d2aeb88ead7c6d8bd7f5b2ed32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of iTraveler.  <a href="#aa8d492d2aeb88ead7c6d8bd7f5b2ed32">More...</a><br /></td></tr>
-<tr class="separator:aa8d492d2aeb88ead7c6d8bd7f5b2ed32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structade_1_1i_traveler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structade_1_1i_traveler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structade_1_1i_traveler.html">ade::iTraveler</a></td></tr>
-<tr class="memitem:af8279cb7fbe1363298287f4e2061254a inherit pub_methods_structade_1_1i_traveler"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structade_1_1i_traveler.html#af8279cb7fbe1363298287f4e2061254a">~iTraveler</a> (void)=default</td></tr>
-<tr class="separator:af8279cb7fbe1363298287f4e2061254a inherit pub_methods_structade_1_1i_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba443ba442695189dae7dde3c7511a88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#aba443ba442695189dae7dde3c7511a88">visit</a> (<a class="el" href="structteq_1_1i_leaf.html">teq::iLeaf</a> *leaf) override</td></tr>
+<tr class="memdesc:aba443ba442695189dae7dde3c7511a88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of iTraveler.  <a href="#aba443ba442695189dae7dde3c7511a88">More...</a><br /></td></tr>
+<tr class="separator:aba443ba442695189dae7dde3c7511a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039a575eaa8ff620e03febd23d2ff057"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#a039a575eaa8ff620e03febd23d2ff057">visit</a> (<a class="el" href="structteq_1_1i_functor.html">teq::iFunctor</a> *func) override</td></tr>
+<tr class="memdesc:a039a575eaa8ff620e03febd23d2ff057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of iTraveler.  <a href="#a039a575eaa8ff620e03febd23d2ff057">More...</a><br /></td></tr>
+<tr class="separator:a039a575eaa8ff620e03febd23d2ff057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structteq_1_1i_traveler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structteq_1_1i_traveler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structteq_1_1i_traveler.html">teq::iTraveler</a></td></tr>
+<tr class="memitem:a84a58be792f24b32491a44f46b213475 inherit pub_methods_structteq_1_1i_traveler"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structteq_1_1i_traveler.html#a84a58be792f24b32491a44f46b213475">~iTraveler</a> (void)=default</td></tr>
+<tr class="separator:a84a58be792f24b32491a44f46b213475 inherit pub_methods_structteq_1_1i_traveler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae942b0004f814490505906ca821a78f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structopt_1_1_voter_pool.html">VoterPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#ae942b0004f814490505906ca821a78f8">voters_</a></td></tr>
+<tr class="memdesc:ae942b0004f814490505906ca821a78f8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_conversion.html" title="Represent a conversion between two rule trees. ">Conversion</a> voters to identify candidates.  <a href="#ae942b0004f814490505906ca821a78f8">More...</a><br /></td></tr>
 <tr class="separator:ae942b0004f814490505906ca821a78f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3804ec677cfee22185fe92627e8a341"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *, <a class="el" href="namespaceopt.html#ac27cf0ca8a59c842f6736b669ddab492">CandsT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#aa3804ec677cfee22185fe92627e8a341">candidates_</a></td></tr>
-<tr class="separator:aa3804ec677cfee22185fe92627e8a341"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3266c70735f4c4edb57e97f6d5c001e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetag.html#ac2f24f29bddead334851d7de69798871">tag::SubgraphAssocsT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#a3266c70735f4c4edb57e97f6d5c001e3">group_head_</a></td></tr>
+<tr class="memitem:acd479f20e01a8f94991a3b1792474d13"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *, <a class="el" href="namespaceopt.html#ac27cf0ca8a59c842f6736b669ddab492">CandsT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#acd479f20e01a8f94991a3b1792474d13">candidates_</a></td></tr>
+<tr class="memdesc:acd479f20e01a8f94991a3b1792474d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map real TEQ tensors to candidates identified as TEQ graph is visited.  <a href="#acd479f20e01a8f94991a3b1792474d13">More...</a><br /></td></tr>
+<tr class="separator:acd479f20e01a8f94991a3b1792474d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3266c70735f4c4edb57e97f6d5c001e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetag.html#acd0996d00a0ebbc18d256a951025a626">tag::SubgraphAssocsT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#a3266c70735f4c4edb57e97f6d5c001e3">group_head_</a></td></tr>
+<tr class="memdesc:a3266c70735f4c4edb57e97f6d5c001e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Root of grouped subgraphs.  <a href="#a3266c70735f4c4edb57e97f6d5c001e3">More...</a><br /></td></tr>
 <tr class="separator:a3266c70735f4c4edb57e97f6d5c001e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d2a437469665ffaf52b234f8180d328"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::string(<a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#a0d2a437469665ffaf52b234f8180d328">scalarize_</a></td></tr>
-<tr class="separator:a0d2a437469665ffaf52b234f8180d328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7061e31e1762a03b5628ffd606e268c1"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::string(<a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_matcher.html#a7061e31e1762a03b5628ffd606e268c1">scalarize_</a></td></tr>
+<tr class="memdesc:a7061e31e1762a03b5628ffd606e268c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns constant representation of tensor.  <a href="#a7061e31e1762a03b5628ffd606e268c1">More...</a><br /></td></tr>
+<tr class="separator:a7061e31e1762a03b5628ffd606e268c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Approach: we have matcher, voters, and candidates</p><ul>
+<li>matchers map:<ul>
+<li>functors to voters (by functor's opname)</li>
+<li>leaves to ScalarCand (if it is immutable and scalar)</li>
+<li>anything that is not matched to a voter or candidate has no candidate and marked as ANY</li>
+</ul>
+</li>
+<li>voters are created by the parser, and only accept functor arguments voters generate a list of candidates based on the arguments, the list of candidates can be empty and marked as ANY</li>
+<li>candidates can be a scalar, an intermediate candidate, or a convertible candidate. when built:<ul>
+<li>scalar candidates take a constant scalar node</li>
+<li>convertible candidates take on it's converted subgraph</li>
+<li>intermediate candidates do nothing Using the matcher, the optimizer makes a best attempt at mapping tensor to zero to many candidates. The optimizer is responsible for selecting the best candidates </li>
+</ul>
+</li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6bdc2c485a11948c7ea1ce099fd62f83"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6bdc2c485a11948c7ea1ce099fd62f83">&#9670;&nbsp;</a></span>Matcher() <span class="overload">[1/2]</span></h2>
 
@@ -174,8 +194,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a56afdc8fa0e990fd73f28121420d8239"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56afdc8fa0e990fd73f28121420d8239">&#9670;&nbsp;</a></span>visit() <span class="overload">[1/2]</span></h2>
+<a id="aba443ba442695189dae7dde3c7511a88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba443ba442695189dae7dde3c7511a88">&#9670;&nbsp;</a></span>visit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +206,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void opt::Matcher::visit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structade_1_1i_leaf.html">ade::iLeaf</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structteq_1_1i_leaf.html">teq::iLeaf</a> *&#160;</td>
           <td class="paramname"><em>leaf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -200,12 +220,12 @@ Public Attributes</h2></td></tr>
 
 <p>Implementation of iTraveler. </p>
 
-<p>Implements <a class="el" href="structade_1_1i_traveler.html#a65fd050e7a346733f1eacc59eea299b1">ade::iTraveler</a>.</p>
+<p>Implements <a class="el" href="structteq_1_1i_traveler.html#a77831590652dbed9d959c855628fd6ae">teq::iTraveler</a>.</p>
 
 </div>
 </div>
-<a id="aa8d492d2aeb88ead7c6d8bd7f5b2ed32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8d492d2aeb88ead7c6d8bd7f5b2ed32">&#9670;&nbsp;</a></span>visit() <span class="overload">[2/2]</span></h2>
+<a id="a039a575eaa8ff620e03febd23d2ff057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a039a575eaa8ff620e03febd23d2ff057">&#9670;&nbsp;</a></span>visit() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,7 +236,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void opt::Matcher::visit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structade_1_1i_functor.html">ade::iFunctor</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structteq_1_1i_functor.html">teq::iFunctor</a> *&#160;</td>
           <td class="paramname"><em>func</em></td><td>)</td>
           <td></td>
         </tr>
@@ -230,22 +250,24 @@ Public Attributes</h2></td></tr>
 
 <p>Implementation of iTraveler. </p>
 
-<p>Implements <a class="el" href="structade_1_1i_traveler.html#a6ae5c7df26de362b580a70928a3096dd">ade::iTraveler</a>.</p>
+<p>Implements <a class="el" href="structteq_1_1i_traveler.html#a3da276ae195f0a5093a3c396a6fdd230">teq::iTraveler</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa3804ec677cfee22185fe92627e8a341"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3804ec677cfee22185fe92627e8a341">&#9670;&nbsp;</a></span>candidates_</h2>
+<a id="acd479f20e01a8f94991a3b1792474d13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd479f20e01a8f94991a3b1792474d13">&#9670;&nbsp;</a></span>candidates_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a>*,<a class="el" href="namespaceopt.html#ac27cf0ca8a59c842f6736b669ddab492">CandsT</a>&gt; opt::Matcher::candidates_</td>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a>*,<a class="el" href="namespaceopt.html#ac27cf0ca8a59c842f6736b669ddab492">CandsT</a>&gt; opt::Matcher::candidates_</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Map real TEQ tensors to candidates identified as TEQ graph is visited. </p>
 
 </div>
 </div>
@@ -256,24 +278,28 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacetag.html#ac2f24f29bddead334851d7de69798871">tag::SubgraphAssocsT</a> opt::Matcher::group_head_</td>
+          <td class="memname"><a class="el" href="namespacetag.html#acd0996d00a0ebbc18d256a951025a626">tag::SubgraphAssocsT</a> opt::Matcher::group_head_</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Root of grouped subgraphs. </p>
+
 </div>
 </div>
-<a id="a0d2a437469665ffaf52b234f8180d328"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d2a437469665ffaf52b234f8180d328">&#9670;&nbsp;</a></span>scalarize_</h2>
+<a id="a7061e31e1762a03b5628ffd606e268c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7061e31e1762a03b5628ffd606e268c1">&#9670;&nbsp;</a></span>scalarize_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;std::string(<a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a>*)&gt; opt::Matcher::scalarize_</td>
+          <td class="memname">std::function&lt;std::string(<a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a>*)&gt; opt::Matcher::scalarize_</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Function that returns constant representation of tensor. </p>
 
 </div>
 </div>
@@ -288,6 +314,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="struct_conversion.html" title="Represent a conversion between two rule trees. ">Conversion</a> voters to identify candidates. </p>
 
 </div>
 </div>

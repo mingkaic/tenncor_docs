@@ -69,21 +69,25 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Rule tree node.  
+ <a href="struct_subgraph.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="def_8h_source.html">def.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Subgraph:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_subgraph__coll__graph.png" border="0" usemap="#_subgraph_coll__map" alt="Collaboration graph"/></div>
 <map name="_subgraph_coll__map" id="_subgraph_coll__map">
-<area shape="rect" id="node2" href="struct_branch.html" title="Branch" alt="" coords="13,192,77,217"/>
-<area shape="rect" id="node3" href="struct_ptr_list.html" title="PtrList" alt="" coords="15,105,74,131"/>
-<area shape="rect" id="node4" href="struct_ptr_node.html" title="PtrNode" alt="" coords="10,5,80,31"/>
+<area shape="rect" id="node2" href="struct_branch.html" title="Branching (Functor or Group) node. " alt="" coords="13,192,77,217"/>
+<area shape="rect" id="node3" href="struct_ptr_list.html" title="Pointer linked list. " alt="" coords="15,105,74,131"/>
+<area shape="rect" id="node4" href="struct_ptr_node.html" title="Node of a pointer linked list. " alt="" coords="10,5,80,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a21ca32aa177d0d16e9715f928ae08a78"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="def_8h.html#af90182c6ae6648f4463387e5ac0bcd3b">SUBGRAPH_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_subgraph.html#a21ca32aa177d0d16e9715f928ae08a78">type_</a></td></tr>
+<tr class="memdesc:a21ca32aa177d0d16e9715f928ae08a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the node.  <a href="#a21ca32aa177d0d16e9715f928ae08a78">More...</a><br /></td></tr>
 <tr class="separator:a21ca32aa177d0d16e9715f928ae08a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea50bf753ab0c13cb633547957ffa0c3"><td class="memItemLeft" >union {</td></tr>
 <tr class="memitem:a98b646346c13c7b4f205a01d20391097"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="struct_subgraph.html#a709ac00c627381823a8d5c6ce258fd74">scalar_</a></td></tr>
@@ -93,9 +97,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae691aa3538c855c1ebd9d32866475f79"><td class="memItemLeft" >&#160;&#160;&#160;struct <a class="el" href="struct_branch.html">Branch</a> *&#160;&#160;&#160;<a class="el" href="struct_subgraph.html#a9577756df81a792e06cc7adeb9be7427">branch_</a></td></tr>
 <tr class="separator:ae691aa3538c855c1ebd9d32866475f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea50bf753ab0c13cb633547957ffa0c3"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_subgraph.html#aea50bf753ab0c13cb633547957ffa0c3">val_</a></td></tr>
+<tr class="memdesc:aea50bf753ab0c13cb633547957ffa0c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Node instance according to type.  <a href="#aea50bf753ab0c13cb633547957ffa0c3">More...</a><br /></td></tr>
 <tr class="separator:aea50bf753ab0c13cb633547957ffa0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Rule tree node. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="ab39420d626f1f5c81b14e736740aae70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab39420d626f1f5c81b14e736740aae70">&#9670;&nbsp;</a></span>any_</h2>
 
@@ -150,6 +157,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Type of the node. </p>
+
 </div>
 </div>
 <a id="aea50bf753ab0c13cb633547957ffa0c3"></a>
@@ -163,6 +172,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Node instance according to type. </p>
 
 </div>
 </div>

@@ -74,27 +74,34 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Hash variadic/commutative arguments that ignores order.  
+ <a href="structopt_1_1_comm_hasher.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="ivoter_8hpp_source.html">ivoter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for opt::CommHasher:</div>
 <div class="dyncontent">
 <div class="center"><img src="structopt_1_1_comm_hasher__coll__graph.png" border="0" usemap="#opt_1_1_comm_hasher_coll__map" alt="Collaboration graph"/></div>
 <map name="opt_1_1_comm_hasher_coll__map" id="opt_1_1_comm_hasher_coll__map">
-<area shape="rect" id="node2" href="structopt_1_1_ordr_hasher.html" title="opt::OrdrHasher" alt="" coords="12,5,129,31"/>
+<area shape="rect" id="node2" href="structopt_1_1_ordr_hasher.html" title="Hash voter arguments while preserving order of arguments. " alt="" coords="12,5,129,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a160b74b2fbfbc79d28e68268aa19c09e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_comm_hasher.html#a160b74b2fbfbc79d28e68268aa19c09e">operator()</a> (const <a class="el" href="structopt_1_1_seg_v_args.html">SegVArgs</a> &amp;args) const</td></tr>
+<tr class="memdesc:a160b74b2fbfbc79d28e68268aa19c09e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return hash of arguments.  <a href="#a160b74b2fbfbc79d28e68268aa19c09e">More...</a><br /></td></tr>
 <tr class="separator:a160b74b2fbfbc79d28e68268aa19c09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad21e3eac1f7a236939cc7110b1f3ed98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structopt_1_1_ordr_hasher.html">OrdrHasher</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopt_1_1_comm_hasher.html#ad21e3eac1f7a236939cc7110b1f3ed98">hasher_</a></td></tr>
+<tr class="memdesc:ad21e3eac1f7a236939cc7110b1f3ed98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal ordered hasher used against normalized commutative args.  <a href="#ad21e3eac1f7a236939cc7110b1f3ed98">More...</a><br /></td></tr>
 <tr class="separator:ad21e3eac1f7a236939cc7110b1f3ed98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Hash variadic/commutative arguments that ignores order. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a160b74b2fbfbc79d28e68268aa19c09e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a160b74b2fbfbc79d28e68268aa19c09e">&#9670;&nbsp;</a></span>operator()()</h2>
 
@@ -119,6 +126,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return hash of arguments. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -133,6 +142,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Internal ordered hasher used against normalized commutative args. </p>
 
 </div>
 </div>

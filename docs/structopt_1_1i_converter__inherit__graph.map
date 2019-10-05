@@ -1,6 +1,6 @@
 <map id="opt::iConverter" name="opt::iConverter">
-<area shape="rect" id="node2" href="$structead_1_1_any_convr.html" title="ead::AnyConvr\&lt; T \&gt;" alt="" coords="5,79,146,104"/>
-<area shape="rect" id="node3" href="$structead_1_1_func_convr.html" title="ead::FuncConvr\&lt; T \&gt;" alt="" coords="170,79,317,104"/>
-<area shape="rect" id="node4" href="$structead_1_1_group_convr.html" title="ead::GroupConvr\&lt; T \&gt;" alt="" coords="341,79,495,104"/>
-<area shape="rect" id="node5" href="$structead_1_1_scalar_convr.html" title="ead::ScalarConvr\&lt; T \&gt;" alt="" coords="519,79,674,104"/>
+<area shape="rect" id="node2" href="$structeteq_1_1_any_convr.html" title="Implementation of optimization converter that represents any node. " alt="" coords="170,5,313,31"/>
+<area shape="rect" id="node3" href="$structeteq_1_1_func_convr.html" title="Implementation of optimization converter that represents and builds functors. " alt="" coords="166,55,317,80"/>
+<area shape="rect" id="node4" href="$structeteq_1_1_group_convr.html" title="Implementation of optimization converter that represents and builds subgraphs of specific types..." alt="" coords="162,104,320,129"/>
+<area shape="rect" id="node5" href="$structeteq_1_1_scalar_convr.html" title="Implementation of optimization converter that represents and builds scalar constants. " alt="" coords="162,153,321,179"/>
 </map>

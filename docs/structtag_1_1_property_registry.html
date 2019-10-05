@@ -74,13 +74,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p><a class="el" href="structtag_1_1_tag_registry.html" title="Registry for associating tensors to tag collectives. ">TagRegistry</a> wrapper to tag and check properties on tensors.  
+ <a href="structtag_1_1_property_registry.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="prop_8hpp_source.html">prop.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for tag::PropertyRegistry:</div>
 <div class="dyncontent">
 <div class="center"><img src="structtag_1_1_property_registry__coll__graph.png" border="0" usemap="#tag_1_1_property_registry_coll__map" alt="Collaboration graph"/></div>
 <map name="tag_1_1_property_registry_coll__map" id="tag_1_1_property_registry_coll__map">
-<area shape="rect" id="node2" href="structtag_1_1_tag_registry.html" title="tag::TagRegistry" alt="" coords="20,5,137,31"/>
+<area shape="rect" id="node2" href="structtag_1_1_tag_registry.html" title="Registry for associating tensors to tag collectives. " alt="" coords="20,5,137,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -88,17 +91,22 @@ Collaboration diagram for tag::PropertyRegistry:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9704715e05d9c7cb0fb28fe2a80647aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_property_registry.html#a9704715e05d9c7cb0fb28fe2a80647aa">PropertyRegistry</a> (<a class="el" href="structtag_1_1_tag_registry.html">TagRegistry</a> &amp;registry=<a class="el" href="namespacetag.html#ad59098e3480c1d395b4b72098a6c0ab7">get_reg</a>())</td></tr>
 <tr class="separator:a9704715e05d9c7cb0fb28fe2a80647aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fde01bf092d2e804bb4e77afe62561b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_property_registry.html#a2fde01bf092d2e804bb4e77afe62561b">property_tag</a> (<a class="el" href="namespaceade.html#a0cd5d0a139b258e530ac3140bc7ccbb1">ade::TensrefT</a> tens, std::string property)</td></tr>
-<tr class="separator:a2fde01bf092d2e804bb4e77afe62561b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0cf5f9376e277f333d428a33068b805"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_property_registry.html#ae0cf5f9376e277f333d428a33068b805">has_property</a> (const <a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *tens, std::string property) const</td></tr>
-<tr class="separator:ae0cf5f9376e277f333d428a33068b805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be447c378508b929bb788326215d7cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_property_registry.html#a7be447c378508b929bb788326215d7cd">property_tag</a> (<a class="el" href="namespaceteq.html#a1ede4d960abd0ae4d3e7f350e2e43232">teq::TensrefT</a> tens, std::string property)</td></tr>
+<tr class="memdesc:a7be447c378508b929bb788326215d7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associate property with tensor.  <a href="#a7be447c378508b929bb788326215d7cd">More...</a><br /></td></tr>
+<tr class="separator:a7be447c378508b929bb788326215d7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e779c88f77445bc7f1716b912f65fc6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_property_registry.html#a8e779c88f77445bc7f1716b912f65fc6">has_property</a> (const <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *tens, std::string property) const</td></tr>
+<tr class="memdesc:a8e779c88f77445bc7f1716b912f65fc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if tensor has specified property.  <a href="#a8e779c88f77445bc7f1716b912f65fc6">More...</a><br /></td></tr>
+<tr class="separator:a8e779c88f77445bc7f1716b912f65fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad419eafc76287387c7f4562ba184696d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtag_1_1_tag_registry.html">TagRegistry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag_1_1_property_registry.html#ad419eafc76287387c7f4562ba184696d">tag_reg_</a></td></tr>
+<tr class="memdesc:ad419eafc76287387c7f4562ba184696d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal tag registry used to retrieve tensor-property association.  <a href="#ad419eafc76287387c7f4562ba184696d">More...</a><br /></td></tr>
 <tr class="separator:ad419eafc76287387c7f4562ba184696d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="structtag_1_1_tag_registry.html" title="Registry for associating tensors to tag collectives. ">TagRegistry</a> wrapper to tag and check properties on tensors. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9704715e05d9c7cb0fb28fe2a80647aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9704715e05d9c7cb0fb28fe2a80647aa">&#9670;&nbsp;</a></span>PropertyRegistry()</h2>
 
@@ -126,8 +134,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae0cf5f9376e277f333d428a33068b805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0cf5f9376e277f333d428a33068b805">&#9670;&nbsp;</a></span>has_property()</h2>
+<a id="a8e779c88f77445bc7f1716b912f65fc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e779c88f77445bc7f1716b912f65fc6">&#9670;&nbsp;</a></span>has_property()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,7 +143,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool tag::PropertyRegistry::has_property </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structade_1_1i_tensor.html">ade::iTensor</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structteq_1_1i_tensor.html">teq::iTensor</a> *&#160;</td>
           <td class="paramname"><em>tens</em>, </td>
         </tr>
         <tr>
@@ -152,10 +160,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Return true if tensor has specified property. </p>
+
 </div>
 </div>
-<a id="a2fde01bf092d2e804bb4e77afe62561b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fde01bf092d2e804bb4e77afe62561b">&#9670;&nbsp;</a></span>property_tag()</h2>
+<a id="a7be447c378508b929bb788326215d7cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7be447c378508b929bb788326215d7cd">&#9670;&nbsp;</a></span>property_tag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +176,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void tag::PropertyRegistry::property_tag </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceade.html#a0cd5d0a139b258e530ac3140bc7ccbb1">ade::TensrefT</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceteq.html#a1ede4d960abd0ae4d3e7f350e2e43232">teq::TensrefT</a>&#160;</td>
           <td class="paramname"><em>tens</em>, </td>
         </tr>
         <tr>
@@ -188,6 +198,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Associate property with tensor. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -202,6 +214,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Internal tag registry used to retrieve tensor-property association. </p>
 
 </div>
 </div>

@@ -1,9 +1,8 @@
-<map id="ead/variable.hpp" name="ead/variable.hpp">
-<area shape="rect" id="node2" href="$ead_2ileaf_8hpp.html" title="ead/ileaf.hpp" alt="" coords="337,79,434,104"/>
-<area shape="rect" id="node18" href="$inode_8hpp.html" title="ead/inode.hpp" alt="" coords="458,79,564,104"/>
-<area shape="rect" id="node3" href="$ade_2ileaf_8hpp.html" title="ade/ileaf.hpp" alt="" coords="143,152,241,177"/>
-<area shape="rect" id="node14" href="$eigen_8hpp.html" title="ead/eigen.hpp" alt="" coords="458,152,564,177"/>
-<area shape="rect" id="node4" href="$itensor_8hpp.html" title="ade/itensor.hpp" alt="" coords="136,232,249,257"/>
-<area shape="rect" id="node11" href="$idata_8hpp.html" title="ade/idata.hpp" alt="" coords="9,232,111,257"/>
-<area shape="rect" id="node5" href="$shape_8hpp.html" title="ade/shape.hpp" alt="" coords="396,312,506,337"/>
+<map id="eteq/variable.hpp" name="eteq/variable.hpp">
+<area shape="rect" id="node2" href="$eteq_2ileaf_8hpp.html" title="eteq/ileaf.hpp" alt="" coords="300,79,401,104"/>
+<area shape="rect" id="node14" href="$inode_8hpp.html" title="eteq/inode.hpp" alt="" coords="425,79,535,104"/>
+<area shape="rect" id="node18" href="$shaped__arr_8hpp.html" title="eteq/shaped_arr.hpp" alt="" coords="630,79,773,104"/>
+<area shape="rect" id="node4" href="$eigen_8hpp.html" title="eteq/eigen.hpp" alt="" coords="296,152,405,177"/>
+<area shape="rect" id="node7" href="$shape_8hpp.html" title="teq/shape.hpp" alt="" coords="648,232,754,257"/>
+<area shape="rect" id="node16" href="$itensor_8hpp.html" title="teq/itensor.hpp" alt="" coords="555,152,664,177"/>
 </map>

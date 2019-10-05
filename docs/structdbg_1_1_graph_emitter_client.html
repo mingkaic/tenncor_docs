@@ -74,13 +74,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>GRPC client that checks for server health and make graph creation and update calls.  
+ <a href="structdbg_1_1_graph_emitter_client.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="client_8hpp_source.html">client.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for dbg::GraphEmitterClient:</div>
 <div class="dyncontent">
 <div class="center"><img src="structdbg_1_1_graph_emitter_client__coll__graph.png" border="0" usemap="#dbg_1_1_graph_emitter_client_coll__map" alt="Collaboration graph"/></div>
 <map name="dbg_1_1_graph_emitter_client_coll__map" id="dbg_1_1_graph_emitter_client_coll__map">
-<area shape="rect" id="node2" href="structdbg_1_1_client_config.html" title="dbg::ClientConfig" alt="" coords="26,5,149,31"/>
+<area shape="rect" id="node2" href="structdbg_1_1_client_config.html" title="Configuration wrapper for creating the client. " alt="" coords="26,5,149,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -98,10 +101,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa90224c0b466f9434222634f68c5c90a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add job that streams UpdateNodeDataRequest.  <a href="#aa90224c0b466f9434222634f68c5c90a">More...</a><br /></td></tr>
 <tr class="separator:aa90224c0b466f9434222634f68c5c90a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e1e390951a6eed4b276317f034d1023"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_graph_emitter_client.html#a0e1e390951a6eed4b276317f034d1023">is_connected</a> (void)</td></tr>
+<tr class="memdesc:a0e1e390951a6eed4b276317f034d1023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the client is connected to the server.  <a href="#a0e1e390951a6eed4b276317f034d1023">More...</a><br /></td></tr>
 <tr class="separator:a0e1e390951a6eed4b276317f034d1023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9abf2fc9f92de79cc6faf9a428609056"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_graph_emitter_client.html#a9abf2fc9f92de79cc6faf9a428609056">join</a> (void)</td></tr>
+<tr class="memdesc:a9abf2fc9f92de79cc6faf9a428609056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait until all request jobs are complete.  <a href="#a9abf2fc9f92de79cc6faf9a428609056">More...</a><br /></td></tr>
 <tr class="separator:a9abf2fc9f92de79cc6faf9a428609056"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a979aec91073f6a919356c4008c3c3621"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_graph_emitter_client.html#a979aec91073f6a919356c4008c3c3621">clear</a> (void)</td></tr>
+<tr class="memdesc:a979aec91073f6a919356c4008c3c3621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kill all request jobs.  <a href="#a979aec91073f6a919356c4008c3c3621">More...</a><br /></td></tr>
 <tr class="separator:a979aec91073f6a919356c4008c3c3621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -117,7 +123,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a1317f1772a06b30210189054f382a958"><td class="memItemLeft" align="right" valign="top">jobs::ManagedJob&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdbg_1_1_graph_emitter_client.html#a1317f1772a06b30210189054f382a958">health_checker_</a></td></tr>
 <tr class="separator:a1317f1772a06b30210189054f382a958"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>GRPC client that checks for server health and make graph creation and update calls. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a040a0c146378d295cea5511f4cb00958"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a040a0c146378d295cea5511f4cb00958">&#9670;&nbsp;</a></span>GraphEmitterClient()</h2>
 
@@ -179,6 +187,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Kill all request jobs. </p>
+
 </div>
 </div>
 <a id="a00e2a752fca0c627efcae184f73f07c0"></a>
@@ -233,6 +243,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return true if the client is connected to the server. </p>
+
 </div>
 </div>
 <a id="a9abf2fc9f92de79cc6faf9a428609056"></a>
@@ -258,6 +270,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Wait until all request jobs are complete. </p>
 
 </div>
 </div>
